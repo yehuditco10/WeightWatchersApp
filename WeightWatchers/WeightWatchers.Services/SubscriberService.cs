@@ -6,5 +6,11 @@ namespace WeightWatchers.Services
 {
    public class SubscriberService:ISubscriberSevice
     {
+        private readonly ISubscriberRepository _subscriberRepository;
+
+        public SubscriberService(ISubscriberRepository subscriberRepository)
+        {
+           _subscriberRepository = subscriberRepository;
+        }
     }
 }
