@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.Api", "WeightWatchers.Api\WeightWatchers.Api.csproj", "{66D7640B-B0B6-40E8-8771-207AB64CC4DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeightWatchers.Api", "WeightWatchers.Api\WeightWatchers.Api.csproj", "{66D7640B-B0B6-40E8-8771-207AB64CC4DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.Data", "WeightWatchers.Data\WeightWatchers.Data.csproj", "{F847CC89-0F88-4533-A7FE-672F01C11136}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeightWatchers.Data", "WeightWatchers.Data\WeightWatchers.Data.csproj", "{F847CC89-0F88-4533-A7FE-672F01C11136}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchers.Services", "WeightWatchers.Services\WeightWatchers.Services.csproj", "{9AB70C06-BCD7-4AF9-B2E6-8B1855F30A5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeightWatchers.Services", "WeightWatchers.Services\WeightWatchers.Services.csproj", "{9AB70C06-BCD7-4AF9-B2E6-8B1855F30A5A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C55C534-F750-480F-AA8E-7EA2A1B9ACE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,6 +11,7 @@ using WeightWatchers.Services;
 using WeightWatchers.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
+using AutoMapper;
 
 namespace WeightWatchers.Api
 {
@@ -33,6 +34,17 @@ namespace WeightWatchers.Api
           
             services.AddScoped<ISubscriberSevice, SubscriberService>();
             services.AddScoped<ISubscriberRepository, SubscriberRepository>();
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            // Auto Mapper Configurations
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mappingConfig.CreateMapper();
+            services.AddSingleton(mapper);
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
