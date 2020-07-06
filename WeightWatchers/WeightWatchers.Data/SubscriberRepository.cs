@@ -38,6 +38,7 @@ namespace WeightWatchers.Data
                         BMI = 0,
                         subscriberId = subsciber.id,
                         height = height,
+                        openDate=DateTime.Today
 
                     });
                     return await _weightWatchersContext.SaveChangesAsync();
@@ -45,9 +46,7 @@ namespace WeightWatchers.Data
             }
             catch (Exception e)
             {
-                throw new Exception("no registered");
-
-
+                throw new Exception("register failed");
             }
             return -1;
         }

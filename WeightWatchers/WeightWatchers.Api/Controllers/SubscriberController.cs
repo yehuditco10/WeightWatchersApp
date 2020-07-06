@@ -26,15 +26,23 @@ namespace WeightWatchers.Api.Controllers
             _mapper = mapper;
         }
         [HttpGet("get")]
-        public async Task<CardDTO> GetByIdAsync(string subscribeId)
+        public async Task<ActionResult<CardDTO>> GetByIdAsync(string subscribeId)
         {
             throw new NotImplementedException();
         }
         [HttpPost]
-        public async Task<bool> post(SubscriberDTO subscriberDTO)
+        public async Task<ActionResult<bool>> post(SubscriberDTO subscriberDTO)
         {
+            try
+            {
             var subsciber = _mapper.Map<Subscriber>(subscriberDTO);
             return await _subscriberSevice.addAsynce(subsciber, subscriberDTO.height);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
         }
         [HttpPost("login")]
         public async Task<ActionResult<string>> post(LoginDTO loginDTO)
