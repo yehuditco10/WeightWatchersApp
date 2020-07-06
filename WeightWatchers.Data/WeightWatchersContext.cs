@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using WeightWatchers.Data.Entities;
 using WeightWatchers.Services.Models;
 namespace WeightWatchers.Data
 {
@@ -28,7 +29,7 @@ namespace WeightWatchers.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Card>().ToTable("Card");
-            modelBuilder.Entity<Subscriber>().ToTable("Subscriber");
+            modelBuilder.Entity<SubscriberModel>().ToTable("Subscriber");
 
             modelBuilder.Entity<Card>()
                                .Property(Subscriber => Subscriber.openDate)
@@ -45,20 +46,20 @@ namespace WeightWatchers.Data
             modelBuilder.Entity<Card>()
                 .Property(u => u.id);
             //  .HasDefaultValueSql("NEWID()");
-            modelBuilder.Entity<Subscriber>()
+            modelBuilder.Entity<SubscriberModel>()
                 .Property(u => u.id);
             //   .HasDefaultValueSql("NEWID()");
-            modelBuilder.Entity<Subscriber>()
+            modelBuilder.Entity<SubscriberModel>()
 
                   .HasIndex(u => u.email)
                   .IsUnique();
 
 
-            modelBuilder.Entity<Subscriber>()
+            modelBuilder.Entity<SubscriberModel>()
            .Property(u => u.firstName)
            .IsRequired();
 
-            modelBuilder.Entity<Subscriber>()
+            modelBuilder.Entity<SubscriberModel>()
            .Property(u => u.password)
            .IsRequired();
         }

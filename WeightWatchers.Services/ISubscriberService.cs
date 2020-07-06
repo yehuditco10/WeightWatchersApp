@@ -8,6 +8,8 @@ namespace WeightWatchers.Services
 {
    public interface ISubscriberService
     {
-         Task<Card> GetByIdAsync(int cardId);     
+         Task<CardModel> GetByIdAsync(int cardId);
+        Task<string> loginAsync(string email, string password);
+        Task<bool> addAsynce(SubscriberModel subsciber, float height);
     }
 }

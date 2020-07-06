@@ -12,6 +12,7 @@ using WeightWatchers.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using WeightWatchers.Api.Middleware;
 
 namespace WeightWatchers.Api
 {
@@ -52,8 +53,17 @@ namespace WeightWatchers.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("");
 
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseAuthorization();
+            app.UseMiddleware(typeof(ErrorHandlerMiddlware));
 
             //app.UseEndpoints(endpoints =>
             //{
@@ -66,6 +76,13 @@ namespace WeightWatchers.Api
             {
                 endpoints.MapControllers();
             });
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
         }
     }
 }

@@ -6,6 +6,8 @@ namespace WeightWatchers.Services
 {
     public interface ISubscriberRepository
     {
-        Task<Card> GetByIdAsync(int cardId);
+        Task<CardModel> GetByIdAsync(int cardId);
+        Task<int> addAsync(SubscriberModel subsciber, float height);
+        Task<string> loginAsync(string email, string password);
     }
 }

@@ -39,8 +39,8 @@ namespace WeightWatchers.Data.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("getdate()");
 
-                    b.Property<Guid>("subscriberId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<int>("subscriberId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime>("updateDate")
                         .ValueGeneratedOnAdd()
@@ -93,6 +93,15 @@ namespace WeightWatchers.Data.Migrations
                 {
                     b.HasOne("WeightWatchers.Services.Models.Subscriber", "Subscriber")
                         .WithOne("Card")
+                        .HasForeignKey("WeightWatchers.Services.Models.Card", "subscriberId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("WeightWatchers.Services.Models.Card", b =>
+                {
+                    b.HasOne("WeightWatchers.Services.Models.Subscriber", "subscriber")
+                        .WithOne("card")
                         .HasForeignKey("WeightWatchers.Services.Models.Card", "subscriberId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

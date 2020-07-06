@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -32,7 +33,7 @@ namespace WeightWatchers.Api.Controllers
         {
 
             
-           Card card = await _subscriberService.GetByIdAsync(cardId);
+           CardModel card = await _subscriberService.GetByIdAsync(cardId);
             if (card == null)
             {
                 throw new Exception("not found");
@@ -40,18 +41,34 @@ namespace WeightWatchers.Api.Controllers
             return Ok(_mapper.Map<CardDTO>(card));
 
         }
-
         [HttpPost]
-        public async Task<bool> register(SubscriberDTO subscriberDTO)
+        public async Task<ActionResult<bool>> post(SubscriberDTO subscriberDTO)
         {
-            var model = _mapper.Map<Subscriber>(subscriberDTO);
-            throw new NotImplementedException();
-
+            try
+            {
+            var subsciber = _mapper.Map<SubscriberModel>(subscriberDTO);
+            return await _subscriberService.addAsynce(subsciber, subscriberDTO.height);
+            }
+            catch (Exception e)
+            {
+                return BadRequest(e.Message);
+            }
+            
         }
-        [HttpPost]//my?
-        public async Task<string> login(SubscriberDTO subscriber)
+        [HttpPost("login")]
+        public async Task<ActionResult<string>> post(LoginDTO loginDTO)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return await _subscriberService.loginAsync(loginDTO.email, loginDTO.password);
+            }
+            catch (Exception)
+            {
+               // throw new HttpResponseException(HttpStatusCode.Unauthorized);
+              //  return BadRequest(StatusCodes.Status401Unauthorized);
+             
+                return Unauthorized();
+            }
 
         }
 

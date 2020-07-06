@@ -11,6 +11,6 @@ namespace WeightWatchers.Api.DTO
         public string lastName { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-        public int height { get; set; }
+        public float height { get; set; }
     }
 }
