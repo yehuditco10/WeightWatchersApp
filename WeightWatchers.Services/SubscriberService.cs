@@ -15,28 +15,20 @@ namespace WeightWatchers.Services
             _subscriberRepository = subscriberRepository;
         }
 
-        public async Task<bool> addAsynce(SubscriberModel subsciber, float height)
+        public async Task<bool> AddAsync(SubscriberModel subsciber, float height)
         {
-            try
-            {
-                var isSeccseed = await _subscriberRepository.addAsync(subsciber, height);
-                if (isSeccseed == 2)
-                    return true;
-                else if (isSeccseed == -1)
+                var isSeccseed = await _subscriberRepository.AddAsync(subsciber, height);
+              
+                if (isSeccseed == -1)
                 {
-                    throw new Exception("this email exists, try another");
+                   throw new Exception("this email exists, try another");
                 }
-            }
-            catch (Exception e)
-            {
-                throw new Exception(e.Message);
-            }
-            return false;
+            return true;           
         }
 
-        public async Task<int> loginAsync(string email, string password)
+        public async Task<int> LoginAsync(string email, string password)
         {
-            return await _subscriberRepository.loginAsync(email, password);
+           return await _subscriberRepository.LoginAsync(email, password);
         }
 
         public Task<CardModel> GetByIdAsync(int cardId)

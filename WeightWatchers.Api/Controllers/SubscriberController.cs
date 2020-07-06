@@ -28,51 +28,29 @@ namespace WeightWatchers.Api.Controllers
             _subscriberService = subscriberService;
             _mapper = mapper;
         }
-        [HttpGet("GetById/{cardId}")]
+        [HttpGet("{cardId}")]
         public async Task<ActionResult> GetByIdAsync(int cardId)
         {
-
-            
-           CardModel card = await _subscriberService.GetByIdAsync(cardId);
+            CardModel card = await _subscriberService.GetByIdAsync(cardId);
             if (card == null)
             {
                 throw new Exception("not found");
             }
             return Ok(_mapper.Map<CardDTO>(card));
-
         }
         [HttpPost]
-        public async Task<ActionResult<bool>> post(SubscriberDTO subscriberDTO)
+        public async Task<ActionResult<bool>> RegisterAsync(SubscriberDTO subscriberDTO)
         {
-            try
-            {
-            var subsciber = _mapper.Map<SubscriberModel>(subscriberDTO);
-            return await _subscriberService.addAsynce(subsciber, subscriberDTO.height);
-            }
-            catch (Exception e)
-            {
-                return BadRequest(e.Message);
-            }
-            
+                var subsciber = _mapper.Map<SubscriberModel>(subscriberDTO);
+                return await _subscriberService.AddAsync(subsciber, subscriberDTO.height);
         }
         [HttpPost("login")]
-        public async Task<ActionResult<int>> post(LoginDTO loginDTO)
+        public async Task<ActionResult<int>> LoginAsync(LoginDTO loginDTO)
         {
-            try
-            {
-                return await _subscriberService.loginAsync(loginDTO.email, loginDTO.password);
-            }
-            catch (Exception)
-            {
-               // throw new HttpResponseException(HttpStatusCode.Unauthorized);
-              //  return BadRequest(StatusCodes.Status401Unauthorized);
-             
+            var cardId= await _subscriberService.LoginAsync(loginDTO.email, loginDTO.password);
+            if (cardId == -1)
                 return Unauthorized();
-            }
-
+            return cardId;
         }
-
-
-
     }
 }

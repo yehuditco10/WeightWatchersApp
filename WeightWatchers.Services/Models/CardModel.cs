@@ -13,6 +13,9 @@ namespace WeightWatchers.Services.Models
         public float height { get; set; }
         public float weight { get; set; }
         public DateTime updateDate { get; set; }
+        //public virtual SubscriberModel subscriber { get; set; }
+        public string firstName { get; set; }
+        public string lastName { get; set; }
 
         public CardModel(int id, Guid subscriberId, DateTime openDate, float bMI, float height, float weight, DateTime updateDate)
         {

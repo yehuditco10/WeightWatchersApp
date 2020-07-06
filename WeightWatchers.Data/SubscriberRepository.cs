@@ -24,7 +24,7 @@ namespace WeightWatchers.Data
         }
 
         public IMapper Mapper { get; }
-
+        //public IsEmailExists
         public async Task<int> addAsync(SubscriberModel subsciberModel, float height)
         {
             try
@@ -50,12 +50,17 @@ namespace WeightWatchers.Data
             }
             catch (Exception e)
             {
-                throw new Exception("register failed");
+                throw new Exception(e.Message);
             }
             return -1;
         }
- 
-    public async Task<CardModel> GetByIdAsync(int cardId)
+
+        public Task<int> AddAsync(SubscriberModel subsciber, float height)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<CardModel> GetByIdAsync(int cardId)
                 {
                     try
                     {
@@ -65,8 +70,8 @@ namespace WeightWatchers.Data
                             throw new Exception("The id isn't exists");
                         }
                         var moreDetails = await _context.Subscribers.FirstOrDefaultAsync(s => s.id.Equals(card.subscriberId));
-                        card.subscriber.firstName = moreDetails.firstName;
-                        card.subscriber.lastName = moreDetails.lastName;
+                        //card.subscriber.firstName = moreDetails.firstName;
+                        //card.subscriber.lastName = moreDetails.lastName;
                         return _mapper.Map<CardModel>(card);
                     }
                     catch (Exception e)
@@ -77,17 +82,18 @@ namespace WeightWatchers.Data
 
 
                 }
-                public async Task<int> loginAsync(string email, string password)
-                {
-                    Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
-                        s => s.email == email && s.password == password);
-                    if (subscriber == null)
-                    {
-                        throw new Exception("401");
-                    }
-                    var card = await _context.Cards.FirstOrDefaultAsync(
-                        c => c.subscriberId == subscriber.id);
-                    return card.id;
-                }
+        public async Task<int> LoginAsync(string email, string password)
+        {
+            Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
+                s => s.email == email && s.password == password);
+            if (subscriber == null)
+            {
+                return -1;
             }
+            var card = await _context.Cards.FirstOrDefaultAsync(
+                c => c.subscriberId == subscriber.id);
+            return card.id;
+        }
+
+    }
 }

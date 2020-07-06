@@ -18,10 +18,10 @@ namespace WeightWatchers.Api
             CreateMap<CardDTO, CardModel>();
             CreateMap<SubscriberModel, Subscriber>();
             CreateMap<CardModel, Card>();
-            CreateMap<Card, CardModel>();
-            CreateMap<CardModel, CardDTO>();
-
-
+            CreateMap<Card, CardModel>().ForMember(name => name.firstName, to => to.MapFrom(n => n.subscriber.firstName))
+                .ForMember(name => name.lastName, to => to.MapFrom(n => n.subscriber.lastName));;
+            CreateMap<CardModel, CardDTO>();//.ForMember(name=>name.firstName,to=>to.MapFrom(n=>n.firstName))
+             //   .ForMember(name => name.lastName, to => to.MapFrom(n => n.lastName));
         }
     }
 }
