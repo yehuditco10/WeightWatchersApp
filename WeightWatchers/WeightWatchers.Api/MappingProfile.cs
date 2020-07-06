@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using WeightWatchers.Api.DTO;
 using WeightWatchers.Data;
+using WeightWatchers.Data.Entities;
 using WeightWatchers.Services;
 using WeightWatchers.Services.Models;
 
@@ -18,6 +19,9 @@ namespace WeightWatchers.Api
             CreateMap<SubscriberDTO, Subscriber>();
             CreateMap<Card, CardDTO>();
             CreateMap<CardDTO, Card>();
+            CreateMap<CardEntity, Card>();
+            CreateMap< Card,CardEntity>();
+
         }
     }
 }

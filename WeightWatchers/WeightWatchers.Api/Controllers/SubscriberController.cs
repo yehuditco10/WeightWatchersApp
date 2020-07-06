@@ -15,35 +15,32 @@ namespace WeightWatchers.Api.Controllers
     [ApiController]
     public class SubscriberController : ControllerBase
     {
-        private readonly ISubscriberRepository _subscriberRepository;
+        private readonly ISubscriberSevice _subscriberSevice;
         private readonly IMapper _mapper;
 
-        public SubscriberController(ISubscriberRepository subscriberRepository,
+        public SubscriberController(ISubscriberSevice subscriberSevice,
             IMapper mapper)
         {
-           _subscriberRepository = subscriberRepository;
+            _subscriberSevice = subscriberSevice;
             _mapper = mapper;
         }
-        [HttpGet]
+        [HttpGet("get")]
         public async Task<CardDTO> GetByIdAsync(string subscribeId)
         {
             throw new NotImplementedException();
         }
         [HttpPost]
-        public async Task<bool> register(SubscriberDTO subscriberDTO)
+        public async Task<bool> post(SubscriberDTO subscriberDTO)
         {
-            var model = _mapper.Map<Subscriber>(subscriberDTO);
-
-            throw new NotImplementedException();
-
+            var subsciber = _mapper.Map<Subscriber>(subscriberDTO);
+            return  await _subscriberSevice.addAsynce(subsciber,subscriberDTO.height);
         }
-        [HttpPost]
-        public async Task<string> login(SubscriberDTO subscriber)
+        [HttpPost("login")]
+        public async Task<string> post(LoginDTO loginDTO)
         {
-            throw new NotImplementedException();
-
+            return await _subscriberSevice.loginAsync(loginDTO.email,loginDTO.password);
         }
-      
+
 
 
     }

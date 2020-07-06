@@ -35,8 +35,8 @@ namespace WeightWatchers.Data.Migrations
                     b.Property<DateTime>("openDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("subscriberId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("subscriberId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("updateDate")
                         .HasColumnType("datetime2");
@@ -46,13 +46,17 @@ namespace WeightWatchers.Data.Migrations
 
                     b.HasKey("id");
 
+                    b.HasIndex("subscriberId")
+                        .IsUnique();
+
                     b.ToTable("Cards");
                 });
 
             modelBuilder.Entity("WeightWatchers.Services.Models.Subscriber", b =>
                 {
-                    b.Property<string>("id")
-                        .HasColumnType("nvarchar(450)");
+                    b.Property<Guid>("id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("email")
                         .HasColumnType("nvarchar(max)");
@@ -69,6 +73,15 @@ namespace WeightWatchers.Data.Migrations
                     b.HasKey("id");
 
                     b.ToTable("Subscribers");
+                });
+
+            modelBuilder.Entity("WeightWatchers.Services.Models.Card", b =>
+                {
+                    b.HasOne("WeightWatchers.Services.Models.Subscriber", "subscriber")
+                        .WithOne("card")
+                        .HasForeignKey("WeightWatchers.Services.Models.Card", "subscriberId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }

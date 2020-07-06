@@ -6,12 +6,13 @@ namespace WeightWatchers.Services.Models
 {
    public class Subscriber
     {
-        public string id { get; set; }
+        public Guid id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string email { get; set; }
         public string password { get; set; }
-       // public int height { get; set; }
+        public virtual Card card { get; set; }
+        // public int height { get; set; }
 
     }
 }
