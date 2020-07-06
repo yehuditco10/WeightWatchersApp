@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Http;
@@ -33,12 +34,22 @@ namespace WeightWatchers.Api.Controllers
         public async Task<bool> post(SubscriberDTO subscriberDTO)
         {
             var subsciber = _mapper.Map<Subscriber>(subscriberDTO);
-            return  await _subscriberSevice.addAsynce(subsciber,subscriberDTO.height);
+            return await _subscriberSevice.addAsynce(subsciber, subscriberDTO.height);
         }
         [HttpPost("login")]
-        public async Task<string> post(LoginDTO loginDTO)
+        public async Task<ActionResult<string>> post(LoginDTO loginDTO)
         {
-            return await _subscriberSevice.loginAsync(loginDTO.email,loginDTO.password);
+            try
+            {
+                return await _subscriberSevice.loginAsync(loginDTO.email, loginDTO.password);
+            }
+            catch (Exception)
+            {
+               // throw new HttpResponseException(HttpStatusCode.Unauthorized);
+                return BadRequest(StatusCodes.Status401Unauthorized);
+
+            }
+
         }
 
 

@@ -12,6 +12,7 @@ using WeightWatchers.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using AutoMapper;
+using WeightWatchers.Api.Middleware;
 
 namespace WeightWatchers.Api
 {
@@ -54,8 +55,18 @@ namespace WeightWatchers.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("");
 
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseAuthorization();
+            app.UseMiddleware(typeof(ErrorHandlerMiddlware));
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
