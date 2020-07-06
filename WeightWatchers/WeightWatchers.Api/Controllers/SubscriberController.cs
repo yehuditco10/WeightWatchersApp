@@ -46,8 +46,9 @@ namespace WeightWatchers.Api.Controllers
             catch (Exception)
             {
                // throw new HttpResponseException(HttpStatusCode.Unauthorized);
-                return BadRequest(StatusCodes.Status401Unauthorized);
-
+              //  return BadRequest(StatusCodes.Status401Unauthorized);
+             
+                return Unauthorized();
             }
 
         }
