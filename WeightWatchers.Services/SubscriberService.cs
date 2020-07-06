@@ -34,7 +34,7 @@ namespace WeightWatchers.Services
             return false;
         }
 
-        public async Task<string> loginAsync(string email, string password)
+        public async Task<int> loginAsync(string email, string password)
         {
             return await _subscriberRepository.loginAsync(email, password);
         }

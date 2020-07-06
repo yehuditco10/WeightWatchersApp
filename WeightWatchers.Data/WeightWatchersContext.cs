@@ -29,7 +29,7 @@ namespace WeightWatchers.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Card>().ToTable("Card");
-            modelBuilder.Entity<SubscriberModel>().ToTable("Subscriber");
+            modelBuilder.Entity<Subscriber>().ToTable("Subscriber");
 
             modelBuilder.Entity<Card>()
                                .Property(Subscriber => Subscriber.openDate)
@@ -55,11 +55,11 @@ namespace WeightWatchers.Data
                   .IsUnique();
 
 
-            modelBuilder.Entity<SubscriberModel>()
+            modelBuilder.Entity<Subscriber>()
            .Property(u => u.firstName)
            .IsRequired();
 
-            modelBuilder.Entity<SubscriberModel>()
+            modelBuilder.Entity<Subscriber>()
            .Property(u => u.password)
            .IsRequired();
         }

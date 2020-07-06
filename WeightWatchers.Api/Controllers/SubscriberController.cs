@@ -56,7 +56,7 @@ namespace WeightWatchers.Api.Controllers
             
         }
         [HttpPost("login")]
-        public async Task<ActionResult<string>> post(LoginDTO loginDTO)
+        public async Task<ActionResult<int>> post(LoginDTO loginDTO)
         {
             try
             {

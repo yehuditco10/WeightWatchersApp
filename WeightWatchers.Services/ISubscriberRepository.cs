@@ -8,6 +8,6 @@ namespace WeightWatchers.Services
     {
         Task<CardModel> GetByIdAsync(int cardId);
         Task<int> addAsync(SubscriberModel subsciber, float height);
-        Task<string> loginAsync(string email, string password);
+        Task<int> loginAsync(string email, string password);
     }
 }

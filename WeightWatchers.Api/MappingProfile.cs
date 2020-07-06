@@ -16,7 +16,7 @@ namespace WeightWatchers.Api
         {
             CreateMap<SubscriberDTO, SubscriberModel>();
             CreateMap<CardDTO, CardModel>();
-            CreateMap<SubscriberModel, SubscriberModel>();
+            CreateMap<SubscriberModel, Subscriber>();
             CreateMap<CardModel, Card>();
             CreateMap<Card, CardModel>();
             CreateMap<CardModel, CardDTO>();

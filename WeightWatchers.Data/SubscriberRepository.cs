@@ -77,7 +77,7 @@ namespace WeightWatchers.Data
 
 
                 }
-                public async Task<string> loginAsync(string email, string password)
+                public async Task<int> loginAsync(string email, string password)
                 {
                     Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
                         s => s.email == email && s.password == password);
@@ -87,7 +87,7 @@ namespace WeightWatchers.Data
                     }
                     var card = await _context.Cards.FirstOrDefaultAsync(
                         c => c.subscriberId == subscriber.id);
-                    return card.id.ToString();
+                    return card.id;
                 }
             }
 }
