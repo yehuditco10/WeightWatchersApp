@@ -8,13 +8,15 @@ namespace Measure.Services
 {
     public class MeasureService : IMeasureService
     {
-        public MeasureService()
-        {
+        private readonly IMeasureRepository _measureRepository;
 
-        }
-        public Task<bool> CreateAsync(MeasureModel measure)
+        public MeasureService(IMeasureRepository measureRepository)
         {
-            return null; 
+            _measureRepository = measureRepository;
+        }
+        public async Task<bool> CreateAsync(MeasureModel measure)
+        {
+            return await _measureRepository.CreateAsync(measure);
         }
     }
 }
