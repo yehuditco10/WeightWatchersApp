@@ -24,16 +24,11 @@ namespace WeightWatchers.Data
         }
 
         public IMapper Mapper { get; }
-        //public IsEmailExists
-        public async Task<int> addAsync(SubscriberModel subsciberModel, float height)
+      
+        public async Task<int> AddAsync(SubscriberModel subsciberModel, float height)
         {
             try
             {
-                var exists = await _context.Subscribers.FirstOrDefaultAsync(s => s.email == subsciberModel.email);
-                if (exists == null)
-                {
-                    //SubscriberEntity newSunscriber = _mapper.Map<SubscriberEntity>(subsciber);
-                    //await _weightWatchersContext.AddAsync(newSunscriber);
                     subsciberModel.id = Guid.NewGuid();
                     Subscriber s = _mapper.Map<Subscriber>(subsciberModel);
                     await _context.Subscribers.AddAsync(s);
@@ -46,18 +41,11 @@ namespace WeightWatchers.Data
 
                     });
                     return await _context.SaveChangesAsync();
-                }
             }
             catch (Exception e)
             {
                 throw new Exception(e.Message);
             }
-            return -1;
-        }
-
-        public Task<int> AddAsync(SubscriberModel subsciber, float height)
-        {
-            throw new NotImplementedException();
         }
 
         public async Task<CardModel> GetByIdAsync(int cardId)
@@ -82,6 +70,18 @@ namespace WeightWatchers.Data
 
 
                 }
+
+        public async Task<bool> IsEmailExistsAsync(string email)
+        {
+            Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
+                s => s.email == email );
+            if (subscriber == null)
+            {
+                return false;
+            }
+            return true;
+        }
+
         public async Task<int> LoginAsync(string email, string password)
         {
             Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
