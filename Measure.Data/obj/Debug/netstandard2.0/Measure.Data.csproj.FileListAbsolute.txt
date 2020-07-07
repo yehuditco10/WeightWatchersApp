@@ -10,3 +10,5 @@ C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\obj\Debug\netstandard2.0
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\bin\Debug\netstandard2.0\Measure.Services.dll
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\bin\Debug\netstandard2.0\Measure.Services.pdb
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\obj\Debug\netstandard2.0\Measure.Data.csproj.CopyComplete
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\bin\Debug\netstandard2.0\Messages.dll
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Data\bin\Debug\netstandard2.0\Messages.pdb

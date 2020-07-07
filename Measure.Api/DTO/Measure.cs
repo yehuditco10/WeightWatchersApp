@@ -7,5 +7,7 @@ namespace Measure.Api.DTO
 {
     public class Measure
     {
+        public int cardId { get; set; }
+        public float weight { get; set; }
     }
 }

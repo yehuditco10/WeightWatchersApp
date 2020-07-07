@@ -8,12 +8,12 @@ namespace Measure.Services.Models
     {
         public int id { get; set; }
         public int cardId { get; set; }
-        public float whight { get; set; }
+        public float weight { get; set; }
         public DateTime date { get; set; }
         public eStatus status { get; set; }
     }
     public enum eStatus
     {
-        inProsses, success, failed
+        inProsses=1, success, failed
     }
 }

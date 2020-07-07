@@ -1,4 +1,7 @@
 ﻿using Measure.Services.Models;
+using Messages;
+using NServiceBus;
+using NServiceBus.Routing;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -9,14 +12,35 @@ namespace Measure.Services
     public class MeasureService : IMeasureService
     {
         private readonly IMeasureRepository _measureRepository;
+        private readonly IEndpointInstance _endpointInstance;
+        public MeasureService()
+        {
 
-        public MeasureService(IMeasureRepository measureRepository)
+        }
+        public MeasureService(IMeasureRepository measureRepository)//,
+            //IEndpointInstance endPointInstance)
         {
             _measureRepository = measureRepository;
+         //   _endpointInstance = endPointInstance;
         }
         public async Task<bool> CreateAsync(MeasureModel measure)
         {
-            return await _measureRepository.CreateAsync(measure);
+            measure.date = DateTime.Now;
+            measure.status = eStatus.inProsses;
+            var addedId= await _measureRepository.CreateAsync(measure);
+            if(addedId != 0)
+            {
+                UpdateCard updateCard = new UpdateCard()
+                {
+                    cardId = measure.cardId,
+                    measureId = addedId,
+                    weight = measure.weight
+
+                };
+  //               await _endpointInstance.Send(updateCard);
+                return true;
+            }
+            return false;
         }
     }
 }

@@ -11,3 +11,7 @@ C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\bin\Debug\netstandar
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.pdb
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.dll
 C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.pdb
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csprojAssemblyReference.cache
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\bin\Debug\netstandard2.0\Messages.dll
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\bin\Debug\netstandard2.0\Messages.pdb
+C:\Users\bhartman\Documents\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csproj.CopyComplete

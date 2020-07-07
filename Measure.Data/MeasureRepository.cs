@@ -1,4 +1,5 @@
-﻿using Measure.Services;
+﻿using AutoMapper;
+using Measure.Services;
 using Measure.Services.Models;
 using System;
 using System.Collections.Generic;
@@ -9,9 +10,25 @@ namespace Measure.Data
 {
     public class MeasureRepository : IMeasureRepository
     {
-        public Task<bool> CreateAsync(MeasureModel measure)
+
+        public MeasureRepository(MeasureContext measureContext,
+            IMapper imapper)
         {
-            throw new NotImplementedException();
+            _measureContext = measureContext;
+            _mapper = imapper;
+        }
+
+        private MeasureContext _measureContext { get; }
+
+        private readonly IMapper _mapper;
+
+        public async Task<int> CreateAsync(MeasureModel measureModel)
+        {
+            Entities.Measure measure = _mapper.Map<Entities.Measure>(measureModel);
+            var e = await _measureContext.Measures.AddAsync(measure);
+
+             await _measureContext.SaveChangesAsync();
+            return e.Entity.id;
         }
     }
 }

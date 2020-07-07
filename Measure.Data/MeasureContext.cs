@@ -10,7 +10,7 @@ namespace Measure.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source =ILBHARTMANLT; Initial Catalog = weightWatchers; Integrated Security = True");
+                optionsBuilder.UseSqlServer("Data Source =ILBHARTMANLT; Initial Catalog = MeasureDB; Integrated Security = True");
                 base.OnConfiguring(optionsBuilder);
             }
         }
@@ -28,14 +28,13 @@ namespace Measure.Data
             modelBuilder.Entity<Entities.Measure>()
                                .Property(m => m.id);
             modelBuilder.Entity<Entities.Measure>()
-                                  .Property(m => m.whight)
+                                  .Property(m => m.weight)
                                   .HasDefaultValue(0);
             modelBuilder.Entity<Entities.Measure>()
-               .Property(m => m.cardId)
-               .HasDefaultValue(0);
+               .Property(m => m.cardId);
             modelBuilder.Entity<Entities.Measure>()
                 .Property(u => u.date)
-                .HasDefaultValueSql(DateTime.Now.ToString());
+                .HasDefaultValueSql("getDate()");
             modelBuilder.Entity<Entities.Measure>()
                 .Property(u => u.status);
         }

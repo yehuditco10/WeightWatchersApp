@@ -8,6 +8,6 @@ namespace Measure.Services
 {
     public interface IMeasureRepository
     {
-        Task<bool> CreateAsync(MeasureModel measure);
+        Task<int> CreateAsync(MeasureModel measure);
     }
 }

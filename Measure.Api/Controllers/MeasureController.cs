@@ -30,10 +30,11 @@ namespace Measure.Api.Controllers
             var measure = _mapper.Map<MeasureModel>(measureDTO);
             return await _measureService.CreateAsync(measure);
         }
-        [HttpPut]
-        public async Task<ActionResult<bool>> UodateAsync(DTO.Measure measureDTO)
-        {
-            throw new NotImplementedException();
-        }
+        //I think it's same.
+        //[HttpPut]
+        //public async Task<ActionResult<bool>> UodateAsync(DTO.Measure measureDTO)
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
