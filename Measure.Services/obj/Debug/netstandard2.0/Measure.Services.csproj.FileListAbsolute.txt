@@ -1,0 +1,5 @@
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.deps.json
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csprojAssemblyReference.cache
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.AssemblyInfo.cs

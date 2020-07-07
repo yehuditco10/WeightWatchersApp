@@ -1,0 +1,4 @@
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Data\bin\Debug\netstandard2.0\Measure.Services.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Data\obj\Debug\netstandard2.0\Measure.Data.csprojAssemblyReference.cache
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Data\obj\Debug\netstandard2.0\Measure.Data.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Data\obj\Debug\netstandard2.0\Measure.Data.AssemblyInfo.cs
