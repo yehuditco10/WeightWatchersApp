@@ -44,15 +44,28 @@ namespace Measure.Api
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseExceptionHandler("");
 
+                app.UseHsts();
+            }
+
+            app.UseHttpsRedirection();
             app.UseRouting();
+            app.UseAuthorization();
+            //app.UseMiddleware(typeof(ErrorHandlerMiddlware));
 
+            //app.UseEndpoints(endpoints =>
+            //{
+            //    endpoints.MapGet("/", async context =>
+            //    {
+            //        await context.Response.WriteAsync("Hello World!");
+            //    });
+            //});
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
+                endpoints.MapControllers();
             });
         }
     }
