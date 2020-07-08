@@ -24,23 +24,23 @@ namespace WeightWatchers.Data
         }
 
         public IMapper Mapper { get; }
-      
+
         public async Task<int> AddAsync(SubscriberModel subsciberModel, float height)
         {
             try
             {
-                    subsciberModel.id = Guid.NewGuid();
-                    Subscriber s = _mapper.Map<Subscriber>(subsciberModel);
-                    await _context.Subscribers.AddAsync(s);
-                    await _context.Cards.AddAsync(new Card()
-                    {
-                        BMI = 0,
-                        subscriberId = subsciberModel.id,
-                        height = height,
-                        openDate = DateTime.Today
+                subsciberModel.id = Guid.NewGuid();
+                Subscriber s = _mapper.Map<Subscriber>(subsciberModel);
+                await _context.Subscribers.AddAsync(s);
+                await _context.Cards.AddAsync(new Card()
+                {
+                    BMI = 0,
+                    subscriberId = subsciberModel.id,
+                    height = height,
+                    openDate = DateTime.Today
 
-                    });
-                    return await _context.SaveChangesAsync();
+                });
+                return await _context.SaveChangesAsync();
             }
             catch (Exception e)
             {
@@ -49,32 +49,39 @@ namespace WeightWatchers.Data
         }
 
         public async Task<CardModel> GetByIdAsync(int cardId)
+        {
+            try
+            {
+                Card card = await _context.Cards.FirstOrDefaultAsync(c => c.id == cardId);
+                if (card == null)
                 {
-                    try
-                    {
-                        Card card = await _context.Cards.FirstOrDefaultAsync(c => c.id == cardId);
-                        if (card == null)
-                        {
-                            throw new Exception("The id isn't exists");
-                        }
-                        var moreDetails = await _context.Subscribers.FirstOrDefaultAsync(s => s.id.Equals(card.subscriberId));
-                        //card.subscriber.firstName = moreDetails.firstName;
-                        //card.subscriber.lastName = moreDetails.lastName;
-                        return _mapper.Map<CardModel>(card);
-                    }
-                    catch (Exception e)
-                    {
-                        Console.WriteLine(e.Message);
-                        return null;
-                    }
-
-
+                    throw new Exception("The id isn't exists");
                 }
+                var moreDetails = await _context.Subscribers.FirstOrDefaultAsync(s => s.id.Equals(card.subscriberId));
+                //card.subscriber.firstName = moreDetails.firstName;
+                //card.subscriber.lastName = moreDetails.lastName;
+                return _mapper.Map<CardModel>(card);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+
+
+        }
+
+        public async Task<CardModel> isCardExists(int cardId)
+        {
+            var card = await _context.Cards.FirstOrDefaultAsync(c => c.id == cardId);
+            return _mapper.Map<CardModel>(card);
+
+        }
 
         public async Task<bool> IsEmailExistsAsync(string email)
         {
             Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
-                s => s.email == email );
+                s => s.email == email);
             if (subscriber == null)
             {
                 return false;
@@ -94,6 +101,15 @@ namespace WeightWatchers.Data
                 c => c.subscriberId == subscriber.id);
             return card.id;
         }
+
+        //Has to be async???
+        public async Task<int> UpdateCard(CardModel cardUpdated)
+        {
+            Card card = _mapper.Map<Entities.Card>(cardUpdated);
+            _context.Cards.Update(card);
+            return await _context.SaveChangesAsync();
+        }
+
 
     }
 }

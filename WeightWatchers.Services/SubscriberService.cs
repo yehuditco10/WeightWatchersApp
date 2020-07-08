@@ -33,13 +33,34 @@ namespace WeightWatchers.Services
 
         public async Task<int> LoginAsync(string email, string password)
         {
-           return await _subscriberRepository.LoginAsync(email, password);
+            return await _subscriberRepository.LoginAsync(email, password);
         }
         public Task<CardModel> GetByIdAsync(int cardId)
         {
-           var subscriber = _subscriberRepository.GetByIdAsync(cardId);
+            var subscriber = _subscriberRepository.GetByIdAsync(cardId);
             return subscriber;
         }
 
+
+        public async Task UpdateCard(int cardId, float weight)
+        {
+            CardModel card = await IsCardExists(cardId);
+            if (card != null)
+            {
+                CardModel cardUpdated = new CardModel()
+                {
+                    id = cardId,
+                    BMI = (weight) / card.height * card.height,
+                    weight = weight,
+                    updateDate = DateTime.Today
+                };
+                var successed = await _subscriberRepository.UpdateCard(cardUpdated);
+            }
+        }
+        public async Task<CardModel> IsCardExists(int cardId)
+        {
+          
+            return await _subscriberRepository.isCardExists(cardId);
+        }
     }
 }

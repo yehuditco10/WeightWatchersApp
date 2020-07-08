@@ -29,8 +29,10 @@
           "Measure.Services": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "3.1.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.3",
+          "NServiceBus": "7.3.0",
           "NServiceBus.Persistence.Sql": "6.0.1",
           "NServiceBus.RabbitMQ": "5.2.0",
+          "NServiceBus.SagaAudit": "3.0.1",
           "System.Configuration.ConfigurationManager": "4.7.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -1055,6 +1057,20 @@
       "Microsoft.Win32.SystemEvents/4.7.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "NETStandard.Library/1.6.1": {
@@ -1161,6 +1177,20 @@
         },
         "compile": {
           "lib/netstandard2.0/NServiceBus.Transport.RabbitMQ.dll": {}
+        }
+      },
+      "NServiceBus.SagaAudit/3.0.1": {
+        "dependencies": {
+          "NServiceBus": "7.3.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NServiceBus.SagaAudit.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.1.9"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/NServiceBus.SagaAudit.dll": {}
         }
       },
       "NServiceBus.SqlServer/6.1.1": {
@@ -1601,6 +1631,26 @@
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
           "Microsoft.Win32.SystemEvents": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          },
+          "runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Globalization/4.3.0": {
@@ -2050,6 +2100,20 @@
       "System.Security.Cryptography.Pkcs/4.7.0": {
         "dependencies": {
           "System.Security.Cryptography.Cng": "4.7.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Pkcs.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.1.1.0",
+            "fileVersion": "4.700.19.56404"
+          }
         }
       },
       "System.Security.Cryptography.Primitives/4.3.0": {
@@ -4280,6 +4344,13 @@
       "sha512": "sha512-cMSm3CJFMCYSmUB1N4SvEiDbtKBG4lwWgQHMyK3sBj452Jjp0vD3cunV7vemOyw8mq4vhVZjGSRnWN1CG7wH7Q==",
       "path": "nservicebus.rabbitmq/5.2.0",
       "hashPath": "nservicebus.rabbitmq.5.2.0.nupkg.sha512"
+    },
+    "NServiceBus.SagaAudit/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-om157FwMI8LCDpHDd1GGSkClz/6fCREdgFfNXAnJ62zuc+3ktOVmrGPbNq1OKESB1BqKWJeKli/4eStOzqTxxQ==",
+      "path": "nservicebus.sagaaudit/3.0.1",
+      "hashPath": "nservicebus.sagaaudit.3.0.1.nupkg.sha512"
     },
     "NServiceBus.SqlServer/6.1.1": {
       "type": "package",

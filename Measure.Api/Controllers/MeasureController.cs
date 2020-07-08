@@ -18,6 +18,7 @@ namespace Measure.Api.Controllers
         private readonly IMapper _mapper;
         private readonly IMeasureService _measureService;
 
+      
         public MeasureController(IMapper mapper,
             IMeasureService measureService)
         {
@@ -30,11 +31,5 @@ namespace Measure.Api.Controllers
             var measure = _mapper.Map<MeasureModel>(measureDTO);
             return await _measureService.CreateAsync(measure);
         }
-        //I think it's same.
-        //[HttpPut]
-        //public async Task<ActionResult<bool>> UodateAsync(DTO.Measure measureDTO)
-        //{
-        //    throw new NotImplementedException();
-        //}
     }
 }

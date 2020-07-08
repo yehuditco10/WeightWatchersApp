@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Messages\Messages.csproj" />
     <ProjectReference Include="..\WeightWatchers.Data\WeightWatchers.Data.csproj" />
     <ProjectReference Include="..\WeightWatchers.Services\WeightWatchers.Services.csproj" />
   </ItemGroup>

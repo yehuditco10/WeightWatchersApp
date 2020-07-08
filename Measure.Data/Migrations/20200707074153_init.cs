@@ -14,7 +14,7 @@ namespace Measure.Data.Migrations
                     id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     cardId = table.Column<int>(nullable: false),
-                    whight = table.Column<float>(nullable: false, defaultValue: 0f),
+                    weight = table.Column<float>(nullable: false, defaultValue: 0f),
                     date = table.Column<DateTime>(nullable: false, defaultValueSql: "getDate()"),
                     status = table.Column<int>(nullable: false)
                 },

@@ -12,16 +12,14 @@ namespace Measure.Services
     public class MeasureService : IMeasureService
     {
         private readonly IMeasureRepository _measureRepository;
-        private readonly IEndpointInstance _endpointInstance;
-        public MeasureService()
-        {
-
-        }
-        public MeasureService(IMeasureRepository measureRepository)//,
-            //IEndpointInstance endPointInstance)
+       private readonly IEndpointInstance _endpointInstance;
+      
+        public MeasureService(IMeasureRepository measureRepository
+           , IEndpointInstance endPointInstance
+            )
         {
             _measureRepository = measureRepository;
-         //   _endpointInstance = endPointInstance;
+          _endpointInstance = endPointInstance;
         }
         public async Task<bool> CreateAsync(MeasureModel measure)
         {
@@ -37,10 +35,21 @@ namespace Measure.Services
                     weight = measure.weight
 
                 };
-  //               await _endpointInstance.Send(updateCard);
+              await _endpointInstance.Send(updateCard);
                 return true;
             }
             return false;
         }
+
+        public async Task<bool> UpdateStatus(int measureId, bool isSucceeded)
+        {
+            eStatus status = isSucceeded == true ? eStatus.success : eStatus.failed;
+            var sucsseded= await _measureRepository.UpdateStatus(measureId, status);
+            if (sucsseded != 0)
+                return true;
+            return false;
+        }
+
+       
     }
 }

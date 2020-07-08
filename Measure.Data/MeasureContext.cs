@@ -10,7 +10,7 @@ namespace Measure.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source =ILBHARTMANLT; Initial Catalog = MeasureDB; Integrated Security = True");
+                optionsBuilder.UseSqlServer("Data Source =DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True");
                 base.OnConfiguring(optionsBuilder);
             }
         }

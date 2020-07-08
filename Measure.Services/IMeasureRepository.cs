@@ -9,5 +9,6 @@ namespace Measure.Services
     public interface IMeasureRepository
     {
         Task<int> CreateAsync(MeasureModel measure);
+        Task<int> UpdateStatus(int measureId, eStatus status);
     }
 }
