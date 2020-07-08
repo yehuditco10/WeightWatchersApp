@@ -272,3 +272,13 @@ C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightW
 C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csproj.CopyComplete
 C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.dll
 C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.pdb
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\NServiceBus.Core.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\Messages.dll
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Api\bin\Debug\netcoreapp3.1\Messages.pdb
