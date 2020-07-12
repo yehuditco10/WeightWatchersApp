@@ -1,0 +1,28 @@
+﻿2020-07-12 09:44:19.961 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 09:44:20.959 INFO  Auditing processed messages to 'audit'
+2020-07-12 09:44:21.191 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 09:44:25.299 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 09:44:25.580 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 09:50:54.392 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 09:50:54.798 INFO  Auditing processed messages to 'audit'
+2020-07-12 09:50:54.926 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 09:50:57.733 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 09:50:57.953 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 11:05:24.146 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 11:05:24.533 INFO  Auditing processed messages to 'audit'
+2020-07-12 11:05:24.728 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 11:05:38.931 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 11:05:39.238 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 11:10:20.028 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 11:10:20.495 INFO  Auditing processed messages to 'audit'
+2020-07-12 11:10:20.613 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 11:10:23.244 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 11:10:23.452 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
