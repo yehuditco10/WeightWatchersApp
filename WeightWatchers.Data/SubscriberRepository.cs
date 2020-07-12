@@ -22,9 +22,6 @@ namespace WeightWatchers.Data
             _context = watchersContext;
             _mapper = mapper;
         }
-
-        public IMapper Mapper { get; }
-
         public async Task<int> AddAsync(SubscriberModel subsciberModel, float height)
         {
             try
@@ -70,16 +67,12 @@ namespace WeightWatchers.Data
 
 
         }
-
         public async Task<CardModel> isCardExists(int cardId)
         {
            
             var card = await _context.Cards.FirstOrDefaultAsync(c => c.id == cardId);
-            Console.WriteLine("bbbb");
             return _mapper.Map<CardModel>(card);
-
         }
-
         public async Task<bool> IsEmailExistsAsync(string email)
         {
             Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
@@ -90,7 +83,6 @@ namespace WeightWatchers.Data
             }
             return true;
         }
-
         public async Task<int> LoginAsync(string email, string password)
         {
             Subscriber subscriber = await _context.Subscribers.FirstOrDefaultAsync(
@@ -115,7 +107,5 @@ namespace WeightWatchers.Data
             //_context.Cards.Update(card);
             return await _context.SaveChangesAsync();
         }
-
-
     }
 }

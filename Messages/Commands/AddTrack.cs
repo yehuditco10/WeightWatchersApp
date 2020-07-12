@@ -6,6 +6,7 @@ namespace Messages.Commands
 {
    public class AddTrack
     {
+        public int MeasureId { get; set; }
         public int CardId { get; set; }
         public float NewWeight { get; set; }
         public float NewBMI { get; set; }

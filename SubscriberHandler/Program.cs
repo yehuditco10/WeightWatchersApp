@@ -31,7 +31,8 @@ namespace SubscriberHandler
             var endpointConfiguration = new EndpointConfiguration("Subscriber");
            
             endpointConfiguration.EnableOutbox();
-            var connection = @"Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchersOutBox; Integrated Security = True";
+           // var connection = @"Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchersOutBox; Integrated Security = True";
+            var connection = @"Data Source = ILBHARTMANLT; Initial Catalog = weightWatchers; Integrated Security = True";
             var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
             var subscriptions = persistence.SubscriptionSettings();
             subscriptions.CacheFor(TimeSpan.FromMinutes(1));
@@ -48,16 +49,23 @@ namespace SubscriberHandler
             endpointConfiguration.EnableInstallers();
             endpointConfiguration.AuditProcessedMessagesTo("audit");
 
+            var routing = transport.Routing();
+            routing.RouteToEndpoint(
+                messageType: typeof(Messages.Commands.AddTrack),
+                destination: "Tracking");
+
+            var conventions = endpointConfiguration.Conventions();
+            conventions.DefiningCommandsAs(type => type.Namespace == "Messages.Commands");
+            conventions.DefiningEventsAs(type => type.Namespace == "Messages.Events");
+
             var containerSettings = endpointConfiguration.UseContainer(new DefaultServiceProviderFactory());
             containerSettings.ServiceCollection.AddSingleton<ISubscriberService, SubscriberService>();
             containerSettings.ServiceCollection.AddScoped<ISubscriberRepository, SubscriberRepository>();
             containerSettings.ServiceCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            //containerSettings.ServiceCollection.AddDbContext<WeightWatchersContext>(options =>
-            //            options.UseSqlServer(
-            //                configuration.GetConnectionString("weightWatchersConnection")));
             containerSettings.ServiceCollection.AddDbContext<WeightWatchersContext>(options =>
                         options.UseSqlServer(
-                          "Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchers; Integrated Security = True"));
+                         // "Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchers; Integrated Security = True"));
+                          "Data Source = ILBHARTMANLT; Initial Catalog = weightWatchers; Integrated Security = True"));
 
             var mappingConfig = new MapperConfiguration(mc =>
             {

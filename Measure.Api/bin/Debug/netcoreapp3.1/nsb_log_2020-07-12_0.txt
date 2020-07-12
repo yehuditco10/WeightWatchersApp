@@ -26,3 +26,267 @@ License Expiration: 2020-10-05
 2020-07-12 11:10:23.244 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
 2020-07-12 11:10:23.452 INFO  Executing saga creation scripts:
 C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\12-07\WeightWatchers\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:33:50.482 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:33:50.623 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:33:50.670 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:38:05.269 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:38:05.408 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:38:05.452 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:38:20.191 ERROR Could not complete the installation. 
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at NServiceBus.Persistence.Sql.ScriptRunner.ExecuteInSeparateConnection[T](Func`6 installAction, String scriptDirectory, String tablePrefix, SqlDialect sqlDialect, Func`2 connectionBuilder) in /_/src/SqlPersistence/ScriptRunner.cs:line 70
+   at NServiceBus.Persistence.Sql.ScriptRunner.Install(SqlDialect sqlDialect, String tablePrefix, Func`2 connectionBuilder, String scriptDirectory, Boolean shouldInstallOutbox, Boolean shouldInstallSagas, Boolean shouldInstallSubscriptions, Boolean shouldInstallTimeouts) in /_/src/SqlPersistence/ScriptRunner.cs:line 48
+   at SqlPersistenceInstaller.Install(String identity) in /_/src/SqlPersistence/NeedToInstallSomething.cs:line 30
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+Exception details:
+	HelpLink.ProdName: Microsoft SQL Server
+	HelpLink.EvtSrc: MSSQLServer
+	HelpLink.EvtID: 53
+	HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink
+	HelpLink.LinkId: 20476
+2020-07-12 12:39:29.963 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:39:30.093 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:39:30.141 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:39:30.706 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:39:30.774 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:43:35.489 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:43:35.643 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:43:35.705 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:44:12.524 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:44:25.130 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:44:53.837 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:44:53.981 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:44:54.031 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:45:00.948 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:45:01.724 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:46:35.241 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:46:35.364 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:46:35.409 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:46:35.949 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:46:36.005 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:49:28.863 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:49:29.008 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:49:29.052 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:49:35.455 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:49:48.890 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 12:54:45.758 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 12:54:45.911 INFO  Auditing processed messages to 'audit'
+2020-07-12 12:54:51.785 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 12:54:52.408 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 12:54:52.467 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 13:00:43.118 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 13:00:43.285 INFO  Auditing processed messages to 'audit'
+2020-07-12 13:00:43.339 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 13:00:54.185 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 13:00:55.275 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 13:04:08.157 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 13:04:08.397 INFO  Auditing processed messages to 'audit'
+2020-07-12 13:04:08.484 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 13:04:28.468 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 13:04:28.551 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:39:31.248 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:39:31.379 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:39:31.428 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:39:31.977 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:39:32.049 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:40:21.967 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:40:22.104 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:40:22.147 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:40:22.688 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:40:22.736 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:44:02.486 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:44:02.625 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:44:02.675 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:44:03.305 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:44:03.367 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:49:04.035 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:49:04.186 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:49:04.229 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:49:04.775 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:49:04.837 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:50:18.147 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:51:32.636 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:51:32.806 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:51:32.859 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:51:33.427 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:51:33.480 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:55:26.704 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:55:26.841 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:55:26.884 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:55:27.455 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:55:27.506 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:56:45.837 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:56:45.980 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:56:46.026 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 14:56:46.615 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 14:56:46.671 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 14:59:56.947 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 14:59:57.080 INFO  Auditing processed messages to 'audit'
+2020-07-12 14:59:57.129 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:00:02.832 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:00:02.895 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 15:05:19.419 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 15:05:19.540 INFO  Auditing processed messages to 'audit'
+2020-07-12 15:05:19.586 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:05:20.201 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:05:20.275 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 15:21:03.515 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 15:21:03.670 INFO  Auditing processed messages to 'audit'
+2020-07-12 15:21:03.721 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:21:04.294 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:21:04.347 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 15:24:48.307 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 15:24:48.463 INFO  Auditing processed messages to 'audit'
+2020-07-12 15:24:48.521 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:24:49.108 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:24:49.160 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 15:33:04.761 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 15:33:04.897 INFO  Auditing processed messages to 'audit'
+2020-07-12 15:33:04.946 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:33:05.520 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:33:05.575 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 15:35:15.882 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 15:35:16.021 INFO  Auditing processed messages to 'audit'
+2020-07-12 15:35:16.074 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 15:35:16.679 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 15:35:16.735 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 16:03:21.527 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 16:03:21.674 INFO  Auditing processed messages to 'audit'
+2020-07-12 16:03:21.721 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 16:03:22.291 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 16:03:22.347 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 16:05:12.684 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 16:05:12.837 INFO  Auditing processed messages to 'audit'
+2020-07-12 16:05:12.890 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 16:06:54.774 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 16:06:54.962 INFO  Auditing processed messages to 'audit'
+2020-07-12 16:06:55.018 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 17:00:49.830 ERROR Could not complete the installation. 
+System.Data.SqlClient.SqlException (0x80131904): A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: Shared Memory Provider, error: 0 - No process is on the other end of the pipe.)
+ ---> System.ComponentModel.Win32Exception (233): No process is on the other end of the pipe.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at NServiceBus.Persistence.Sql.ScriptRunner.ExecuteInSeparateConnection[T](Func`6 installAction, String scriptDirectory, String tablePrefix, SqlDialect sqlDialect, Func`2 connectionBuilder) in /_/src/SqlPersistence/ScriptRunner.cs:line 70
+   at NServiceBus.Persistence.Sql.ScriptRunner.Install(SqlDialect sqlDialect, String tablePrefix, Func`2 connectionBuilder, String scriptDirectory, Boolean shouldInstallOutbox, Boolean shouldInstallSagas, Boolean shouldInstallSubscriptions, Boolean shouldInstallTimeouts) in /_/src/SqlPersistence/ScriptRunner.cs:line 48
+   at SqlPersistenceInstaller.Install(String identity) in /_/src/SqlPersistence/NeedToInstallSomething.cs:line 30
+ClientConnectionId:45a117c5-845e-4651-b2e7-eae84c8ce1a4
+Error Number:233,State:0,Class:20
+Exception details:
+	HelpLink.ProdName: Microsoft SQL Server
+	HelpLink.EvtSrc: MSSQLServer
+	HelpLink.EvtID: 233
+	HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink
+	HelpLink.LinkId: 20476
+2020-07-12 17:01:02.105 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 17:01:02.311 INFO  Auditing processed messages to 'audit'
+2020-07-12 17:01:02.388 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 17:01:03.164 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 17:01:03.219 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 17:49:22.223 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 17:49:22.603 INFO  Auditing processed messages to 'audit'
+2020-07-12 17:49:22.817 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 17:49:24.486 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 17:49:24.575 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 18:06:10.171 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 18:06:10.322 INFO  Auditing processed messages to 'audit'
+2020-07-12 18:06:10.385 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 18:06:11.068 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 18:06:11.126 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 18:11:47.862 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 18:11:48.019 INFO  Auditing processed messages to 'audit'
+2020-07-12 18:11:48.073 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 18:11:48.713 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 18:11:48.778 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 18:17:44.255 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 18:17:44.435 INFO  Auditing processed messages to 'audit'
+2020-07-12 18:17:44.504 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 18:17:45.126 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 18:17:45.181 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 18:23:51.986 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 18:23:52.133 INFO  Auditing processed messages to 'audit'
+2020-07-12 18:23:52.185 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 18:23:52.893 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 18:23:52.989 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-12 18:31:49.186 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-12 18:31:49.340 INFO  Auditing processed messages to 'audit'
+2020-07-12 18:31:49.398 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-12 18:31:50.038 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-12 18:31:50.101 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql

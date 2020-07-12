@@ -23,8 +23,6 @@ namespace Measure.Api.NServiceBus
         {
             await _measureService.UpdateStatus(message.measureId, message.isSucceeded);
             //return  Task.CompletedTask;
-           
-            
         }
 
         protected override void ConfigureHowToFindSaga(SagaPropertyMapper<MeasurePolicyData> mapper)
