@@ -28,9 +28,9 @@ create or replace function pg_temp.create_saga_table_SubscriberPolicySaga(tableP
 );';
         execute script;
 
-/* AddProperty measureId */
+/* AddProperty MeasureId */
 
-        script = 'alter table "' || schema || '"."' || tableNameNonQuoted || '" add column if not exists "Correlation_measureId" integer';
+        script = 'alter table "' || schema || '"."' || tableNameNonQuoted || '" add column if not exists "Correlation_MeasureId" integer';
         execute script;
 
 /* VerifyColumnType Int */
@@ -41,15 +41,15 @@ create or replace function pg_temp.create_saga_table_SubscriberPolicySaga(tableP
             where
             table_schema = schema and
             table_name = tableNameNonQuoted and
-            column_name = 'Correlation_measureId'
+            column_name = 'Correlation_MeasureId'
         );
         if columnType <> 'integer' then
-            raise exception 'Incorrect data type for Correlation_measureId. Expected "integer" got "%"', columnType;
+            raise exception 'Incorrect data type for Correlation_MeasureId. Expected "integer" got "%"', columnType;
         end if;
 
-/* WriteCreateIndex measureId */
+/* WriteCreateIndex MeasureId */
 
-        script = 'create unique index if not exists "' || tablePrefix || '_i_F2AB6119FA3B0E0D0A9413F76CE42674CAD7CC12" on "' || schema || '"."' || tableNameNonQuoted || '" using btree ("Correlation_measureId" asc);';
+        script = 'create unique index if not exists "' || tablePrefix || '_i_0C27B3412CA94A43F5F9D0C8D9B7F98F15EDCE10" on "' || schema || '"."' || tableNameNonQuoted || '" using btree ("Correlation_MeasureId" asc);';
         execute script;
 /* PurgeObsoleteIndex */
 
@@ -62,7 +62,7 @@ for columnToDelete in
     where
         table_name = tableNameNonQuoted and
         column_name LIKE 'Correlation_%' and
-        column_name <> 'Correlation_measureId'
+        column_name <> 'Correlation_MeasureId'
 )
 loop
 	script = '

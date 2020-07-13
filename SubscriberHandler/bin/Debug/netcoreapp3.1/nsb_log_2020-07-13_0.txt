@@ -1,0 +1,57 @@
+﻿2020-07-13 09:48:07.641 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 09:48:07.757 INFO  Auditing processed messages to 'audit'
+2020-07-13 09:48:07.804 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 09:48:08.150 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-13 09:48:08.210 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicySaga_Create.sql
+2020-07-13 13:51:02.703 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 13:51:02.984 INFO  Auditing processed messages to 'audit'
+2020-07-13 13:51:03.115 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 13:52:18.293 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 13:52:18.588 INFO  Auditing processed messages to 'audit'
+2020-07-13 13:52:18.698 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 13:52:19.287 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-13 13:52:19.398 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicySaga_Create.sql
+2020-07-13 13:53:12.033 ERROR Received UpdateCard in subscriber saga, weight = 80 ...
+2020-07-13 13:53:20.537 ERROR Received UpdateBMI in subscriber, weight = 80 ...
+2020-07-13 13:53:25.085 ERROR Received track added in subscriber saga, added = True ...
+2020-07-13 13:53:25.118 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Messages.cardUpdated' to help NServiceBus to enforce messaging best practices for you.
+2020-07-13 14:05:57.679 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 14:05:57.965 INFO  Auditing processed messages to 'audit'
+2020-07-13 14:05:58.079 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 14:05:58.740 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-13 14:05:58.841 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicySaga_Create.sql
+2020-07-13 14:06:11.770 ERROR Received UpdateCard in subscriber saga, weight = 80 ...
+2020-07-13 14:06:14.303 ERROR Received UpdateBMI in subscriber, weight = 80 ...
+2020-07-13 14:06:17.768 ERROR Received track added in subscriber saga, added = True ...
+2020-07-13 14:06:17.787 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Messages.cardUpdated' to help NServiceBus to enforce messaging best practices for you.
+2020-07-13 14:09:56.467 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 14:09:56.747 INFO  Auditing processed messages to 'audit'
+2020-07-13 14:09:56.877 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 14:09:57.525 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-13 14:09:57.637 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicySaga_Create.sql
+2020-07-13 14:10:23.397 ERROR Received UpdateCard in subscriber saga, weight = 80 ...
+2020-07-13 14:10:27.268 ERROR Received UpdateBMI in subscriber, weight = 80 ...
+2020-07-13 14:10:36.735 ERROR Received track added in subscriber saga, added = True ...
+2020-07-13 14:10:36.737 WARN  You are using a basic message to do pub/sub. Consider implementing the more specific ICommand and IEvent interfaces on the type 'Messages.cardUpdated' to help NServiceBus to enforce messaging best practices for you.
+2020-07-13 14:15:45.170 INFO  Logging to 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-13 14:15:45.391 INFO  Auditing processed messages to 'audit'
+2020-07-13 14:15:45.492 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-13 14:15:46.047 INFO  Executing 'C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-13 14:15:46.149 INFO  Executing saga creation scripts:
+C:\Users\bhartman\Documents\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\SubscriberPolicySaga_Create.sql
+2020-07-13 14:16:11.500 ERROR Received UpdateCard in subscriber saga, weight = 75 ...
+2020-07-13 14:16:11.890 ERROR Received UpdateBMI in subscriber, weight = 75 ...
+2020-07-13 14:16:13.407 ERROR Received track added in subscriber saga, added = True ...
+2020-07-13 14:17:03.190 ERROR Received UpdateCard in subscriber saga, weight = 75 ...
+2020-07-13 14:17:03.215 ERROR Received UpdateBMI in subscriber, weight = 75 ...
+2020-07-13 14:17:03.268 ERROR Received track added in subscriber saga, added = True ...

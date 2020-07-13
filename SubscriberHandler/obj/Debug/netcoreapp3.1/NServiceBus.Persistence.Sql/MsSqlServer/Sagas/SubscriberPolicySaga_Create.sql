@@ -32,57 +32,57 @@ set @createTable = '
 exec(@createTable);
 end
 
-/* AddProperty measureId */
+/* AddProperty MeasureId */
 
 if not exists
 (
   select * from sys.columns
   where
-    name = N'Correlation_measureId' and
+    name = N'Correlation_MeasureId' and
     object_id = object_id(@tableName)
 )
 begin
-  declare @createColumn_measureId nvarchar(max);
-  set @createColumn_measureId = '
+  declare @createColumn_MeasureId nvarchar(max);
+  set @createColumn_MeasureId = '
   alter table ' + @tableName + N'
-    add Correlation_measureId bigint;';
-  exec(@createColumn_measureId);
+    add Correlation_MeasureId bigint;';
+  exec(@createColumn_MeasureId);
 end
 
 /* VerifyColumnType Int */
 
-declare @dataType_measureId nvarchar(max);
-set @dataType_measureId = (
+declare @dataType_MeasureId nvarchar(max);
+set @dataType_MeasureId = (
   select data_type
   from INFORMATION_SCHEMA.COLUMNS
   where
     table_name = @tableNameWithoutSchema and
     table_schema = @schema and
-    column_name = 'Correlation_measureId'
+    column_name = 'Correlation_MeasureId'
 );
-if (@dataType_measureId <> 'bigint')
+if (@dataType_MeasureId <> 'bigint')
   begin
-    declare @error_measureId nvarchar(max) = N'Incorrect data type for Correlation_measureId. Expected bigint got ' + @dataType_measureId + '.';
-    throw 50000, @error_measureId, 0
+    declare @error_MeasureId nvarchar(max) = N'Incorrect data type for Correlation_MeasureId. Expected bigint got ' + @dataType_MeasureId + '.';
+    throw 50000, @error_MeasureId, 0
   end
 
-/* WriteCreateIndex measureId */
+/* WriteCreateIndex MeasureId */
 
 if not exists
 (
     select *
     from sys.indexes
     where
-        name = N'Index_Correlation_measureId' and
+        name = N'Index_Correlation_MeasureId' and
         object_id = object_id(@tableName)
 )
 begin
-  declare @createIndex_measureId nvarchar(max);
-  set @createIndex_measureId = N'
-  create unique index Index_Correlation_measureId
-  on ' + @tableName + N'(Correlation_measureId)
-  where Correlation_measureId is not null;';
-  exec(@createIndex_measureId);
+  declare @createIndex_MeasureId nvarchar(max);
+  set @createIndex_MeasureId = N'
+  create unique index Index_Correlation_MeasureId
+  on ' + @tableName + N'(Correlation_MeasureId)
+  where Correlation_MeasureId is not null;';
+  exec(@createIndex_MeasureId);
 end
 
 /* PurgeObsoleteIndex */
@@ -96,7 +96,7 @@ select @dropIndexQuery =
         Id = object_id(@tableName) and
         Name is not null and
         Name like 'Index_Correlation_%' and
-        Name <> N'Index_Correlation_measureId'
+        Name <> N'Index_Correlation_MeasureId'
 );
 exec sp_executesql @dropIndexQuery
 
@@ -111,7 +111,7 @@ select @dropPropertiesQuery =
         table_name = @tableNameWithoutSchema and
         table_schema = @schema and
         column_name like 'Correlation_%' and
-        column_name <> N'Correlation_measureId'
+        column_name <> N'Correlation_MeasureId'
 );
 exec sp_executesql @dropPropertiesQuery
 

@@ -34,18 +34,18 @@ prepare script from @createTable;
 execute script;
 deallocate prepare script;
 
-/* AddProperty measureId */
+/* AddProperty MeasureId */
 
 select count(*)
 into @exist
 from information_schema.columns
 where table_schema = database() and
-      column_name = 'Correlation_measureId' and
+      column_name = 'Correlation_MeasureId' and
       table_name = @tableNameNonQuoted;
 
 set @query = IF(
     @exist <= 0,
-    concat('alter table ', @tableNameQuoted, ' add column Correlation_measureId bigint(20)'), 'select \'Column Exists\' status');
+    concat('alter table ', @tableNameQuoted, ' add column Correlation_MeasureId bigint(20)'), 'select \'Column Exists\' status');
 
 prepare script from @query;
 execute script;
@@ -53,37 +53,37 @@ deallocate prepare script;
 
 /* VerifyColumnType Int */
 
-set @column_type_measureId = (
+set @column_type_MeasureId = (
   select concat(column_type,' character set ', character_set_name)
   from information_schema.columns
   where
     table_schema = database() and
     table_name = @tableNameNonQuoted and
-    column_name = 'Correlation_measureId'
+    column_name = 'Correlation_MeasureId'
 );
 
 set @query = IF(
-    @column_type_measureId <> 'bigint(20)',
-    'call sqlpersistence_raiseerror(concat(\'Incorrect data type for Correlation_measureId. Expected bigint(20) got \', @column_type_measureId, \'.\'));',
+    @column_type_MeasureId <> 'bigint(20)',
+    'call sqlpersistence_raiseerror(concat(\'Incorrect data type for Correlation_MeasureId. Expected bigint(20) got \', @column_type_MeasureId, \'.\'));',
     'select \'Column Type OK\' status');
 
 prepare script from @query;
 execute script;
 deallocate prepare script;
 
-/* WriteCreateIndex measureId */
+/* WriteCreateIndex MeasureId */
 
 select count(*)
 into @exist
 from information_schema.statistics
 where
     table_schema = database() and
-    index_name = 'Index_Correlation_measureId' and
+    index_name = 'Index_Correlation_MeasureId' and
     table_name = @tableNameNonQuoted;
 
 set @query = IF(
     @exist <= 0,
-    concat('create unique index Index_Correlation_measureId on ', @tableNameQuoted, '(Correlation_measureId)'), 'select \'Index Exists\' status');
+    concat('create unique index Index_Correlation_MeasureId on ', @tableNameQuoted, '(Correlation_MeasureId)'), 'select \'Index Exists\' status');
 
 prepare script from @query;
 execute script;
@@ -97,7 +97,7 @@ where
     table_schema = database() and
     table_name = @tableNameNonQuoted and
     index_name like 'Index_Correlation_%' and
-    index_name <> 'Index_Correlation_measureId' and
+    index_name <> 'Index_Correlation_MeasureId' and
     table_schema = database()
 into @dropIndexQuery;
 select if (
@@ -118,7 +118,7 @@ where
     table_schema = database() and
     table_name = @tableNameNonQuoted and
     column_name like 'Correlation_%' and
-    column_name <> 'Correlation_measureId'
+    column_name <> 'Correlation_MeasureId'
 into @dropPropertiesQuery;
 
 select if (

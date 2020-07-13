@@ -13,59 +13,68 @@ namespace SubscriberHandler
 {
     public class SubscriberPolicySaga : Saga<SubscriberPolicyData>,
         IAmStartedByMessages<UpdateCard>,
-        IAmStartedByMessages<TrackAdded>
+        IAmStartedByMessages<TrackAdded>,
+        IAmStartedByMessages<BMIUpdated>
     {
-        private readonly ISubscriberService _subscriberService;
         static ILog _log = LogManager.GetLogger<SubscriberPolicySaga>();
-        public SubscriberPolicySaga(ISubscriberService subscriberService)
-        {
-            _subscriberService = subscriberService;
-        }
         public async Task Handle(UpdateCard message, IMessageHandlerContext context)
         {
             _log.Error($"Received UpdateCard in subscriber saga, weight = {message.weight} ...");
 
-            var successedUpdate = await _subscriberService.UpdateCard(message.cardId, message.weight);
-            Data.isCardUpdated = true;
-            if (successedUpdate != -1)
+            UpdateBMI updateBMI = new UpdateBMI()
             {
-                AddTrack addTrack = new AddTrack()
-                {
-                    MeasureId = message.measureId,
-                    CardId = message.cardId,
-                    NewWeight = message.weight,
-                };
-                await context.Send(addTrack);
-            }
-        }
-        protected override void ConfigureHowToFindSaga(SagaPropertyMapper<SubscriberPolicyData> mapper)
-        {
-            mapper.ConfigureMapping<UpdateCard>(message => message.measureId)
-                        .ToSaga(sagaData => sagaData.measureId); 
-            mapper.ConfigureMapping<TrackAdded>(message => message.MeasureId)
-                .ToSaga(saga => saga.measureId); 
-        }
+                measureId = message.measureId,
+                cardId = message.cardId,
+                weight = message.weight
+            };
 
+            await context.SendLocal(updateBMI);
+
+            AddTrack addTrack = new AddTrack()
+            {
+                MeasureId = message.measureId,
+                CardId = message.cardId,
+                Weight = message.weight
+            };
+            await context.Send(addTrack);
+
+        }
         public async Task Handle(TrackAdded message, IMessageHandlerContext context)
         {
             _log.Error($"Received track added in subscriber saga, added = {message.Added} ...");
 
-            Data.isTrackingWasAdded = true;
-             await sendResponse(context);
+            Data.IsTrackingAdded = true;
+            await sendCompleteResponse(context);
+        }
+        public async Task Handle(BMIUpdated message, IMessageHandlerContext context)
+        {
+            Data.IsBMIUpdated = true;
+            Data.BMISucceeded = message.isSucceeded;
+            await sendCompleteResponse(context);
+        }
+        protected override void ConfigureHowToFindSaga(SagaPropertyMapper<SubscriberPolicyData> mapper)
+        {
+            mapper.ConfigureMapping<UpdateCard>(message => message.measureId)
+                        .ToSaga(sagaData => sagaData.MeasureId);
+            mapper.ConfigureMapping<BMIUpdated>(message => message.measureId)
+                        .ToSaga(sagaData => sagaData.MeasureId);
+            mapper.ConfigureMapping<TrackAdded>(message => message.MeasureId)
+                .ToSaga(saga => saga.MeasureId);
         }
 
-        private Task sendResponse(IMessageHandlerContext context)
+        private async Task sendCompleteResponse(IMessageHandlerContext context)
         {
-            if (Data.isCardUpdated && Data.isTrackingWasAdded)
+            if (Data.IsTrackingAdded && Data.IsBMIUpdated)
             {
                 cardUpdated card = new cardUpdated()
                 {
-                    measureId = Data.measureId,
-                    isSucceeded = true
+                    measureId = Data.MeasureId,
+                    isBMISucceeded = Data.BMISucceeded,
+                    isTrackingSucceeded = Data.TrackingSucceeded
                 };
-                var x = context.Publish(card);
+                await context.Publish(card);
             }
-            return Task.CompletedTask;
         }
+
     }
 }

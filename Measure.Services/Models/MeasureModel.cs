@@ -14,6 +14,6 @@ namespace Measure.Services.Models
     }
     public enum eStatus
     {
-        inProsses=1, success=2, failed=3
+        inProsses=1, success, failed
     }
 }

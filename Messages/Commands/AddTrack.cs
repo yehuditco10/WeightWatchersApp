@@ -8,10 +8,9 @@ namespace Messages.Commands
     {
         public int MeasureId { get; set; }
         public int CardId { get; set; }
-        public float NewWeight { get; set; }
-        public float NewBMI { get; set; }
+        public float Weight { get; set; }
+        public float BMI { get; set; }
         public int Trand { get; set; }
         public int Comments { get; set; }
-
     }
 }

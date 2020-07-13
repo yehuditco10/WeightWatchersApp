@@ -38,7 +38,7 @@ begin
 
   end if;
 
-/* AddProperty measureId */
+/* AddProperty MeasureId */
 
 select count(*) into n from all_tab_columns where table_name = 'SUBSCRIBERPOLICYSAGA' and column_name = 'CORR_MEASUREID' and owner = currentSchema;
 if(n = 0)
@@ -69,12 +69,12 @@ then
   raise_application_error(-20000, 'Incorrect data type for Correlation_CORR_MEASUREID.  Expected "NUMBER(19)" got "' || dataType || '".');
 end if;
 
-/* WriteCreateIndex measureId */
+/* WriteCreateIndex MeasureId */
 
-select count(*) into n from user_indexes where table_name = 'SUBSCRIBERPOLICYSAGA' and index_name = 'SAGAIDX_1A81739894EA2FFEBBDD7F';
+select count(*) into n from user_indexes where table_name = 'SUBSCRIBERPOLICYSAGA' and index_name = 'SAGAIDX_6991543203BAB8E63E29F4';
 if(n = 0)
 then
-  sqlStatement := 'create unique index "SAGAIDX_1A81739894EA2FFEBBDD7F" on "SUBSCRIBERPOLICYSAGA" (CORR_MEASUREID ASC)';
+  sqlStatement := 'create unique index "SAGAIDX_6991543203BAB8E63E29F4" on "SUBSCRIBERPOLICYSAGA" (CORR_MEASUREID ASC)';
 
   execute immediate sqlStatement;
 end if;

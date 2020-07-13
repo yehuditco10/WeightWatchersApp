@@ -53,6 +53,8 @@ namespace SubscriberHandler
             routing.RouteToEndpoint(
                 messageType: typeof(Messages.Commands.AddTrack),
                 destination: "Tracking");
+               //routing. messageType: typeof(Messages.Events.cardUpdated),
+               // destination: "");
 
             var conventions = endpointConfiguration.Conventions();
             conventions.DefiningCommandsAs(type => type.Namespace == "Messages.Commands");

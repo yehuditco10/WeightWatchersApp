@@ -3,11 +3,12 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Messages
+namespace Messages.Events
 {
-    public class cardUpdated:IEvent
+    public class cardUpdated
     {
-        public bool isSucceeded { get; set; }
+        public bool isTrackingSucceeded { get; set; }
+        public bool isBMISucceeded { get; set; }
         public int measureId { get; set; }
     }
 }

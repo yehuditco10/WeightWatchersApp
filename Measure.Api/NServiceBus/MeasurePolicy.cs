@@ -1,6 +1,8 @@
 ﻿using Measure.Services;
 using Messages;
+using Messages.Events;
 using NServiceBus;
+using NServiceBus.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +14,7 @@ namespace Measure.Api.NServiceBus
         IAmStartedByMessages<cardUpdated>
     {
         private readonly IMeasureService _measureService;
+        static ILog log = LogManager.GetLogger<MeasurePolicy>();
 
         public MeasurePolicy(IMeasureService measureService)
         {
@@ -21,7 +24,8 @@ namespace Measure.Api.NServiceBus
 
         public async Task Handle(cardUpdated message, IMessageHandlerContext context)
         {
-            await _measureService.UpdateStatus(message.measureId, message.isSucceeded);
+            log.Error("BMI updated, and Tracking added, yooooooo");
+            await _measureService.UpdateStatus(message.measureId, message.isBMISucceeded && message.isTrackingSucceeded);
             //return  Task.CompletedTask;
         }
 
@@ -29,7 +33,6 @@ namespace Measure.Api.NServiceBus
         {
             mapper.ConfigureMapping<cardUpdated>(message => message.measureId)
             .ToSaga(sagaData => sagaData.measureId);
-           
         }
     }
 }
