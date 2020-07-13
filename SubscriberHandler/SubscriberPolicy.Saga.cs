@@ -66,6 +66,7 @@ namespace SubscriberHandler
         {
             if (Data.IsTrackingAdded && Data.IsBMIUpdated)
             {
+                _log.Warn($"Complete saga for id {context.MessageId}------------------------------");
                 cardUpdated card = new cardUpdated()
                 {
                     measureId = Data.MeasureId,

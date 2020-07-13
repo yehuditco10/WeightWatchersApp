@@ -63,10 +63,10 @@ namespace SubscriberHandler
             var containerSettings = endpointConfiguration.UseContainer(new DefaultServiceProviderFactory());
             containerSettings.ServiceCollection.AddSingleton<ISubscriberService, SubscriberService>();
             containerSettings.ServiceCollection.AddScoped<ISubscriberRepository, SubscriberRepository>();
-            containerSettings.ServiceCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            //containerSettings.ServiceCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             containerSettings.ServiceCollection.AddDbContext<WeightWatchersContext>(options =>
                         options.UseSqlServer(
-                         // "Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchers; Integrated Security = True"));
+                         //"Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchers; Integrated Security = True"));
                           "Data Source = ILBHARTMANLT; Initial Catalog = weightWatchers; Integrated Security = True"));
 
             var mappingConfig = new MapperConfiguration(mc =>

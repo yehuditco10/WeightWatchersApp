@@ -41,7 +41,6 @@ namespace WeightWatchers.Services
             return subscriber;
         }
 
-
         public async Task<int> UpdateCard(int cardId, float weight)
         {
             CardModel card = await IsCardExists(cardId);

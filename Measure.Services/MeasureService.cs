@@ -1,10 +1,7 @@
 ﻿using Measure.Services.Models;
 using Messages;
 using NServiceBus;
-using NServiceBus.Routing;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Measure.Services
@@ -24,8 +21,8 @@ namespace Measure.Services
         {
             measure.date = DateTime.Now;
             measure.status = eStatus.inProsses;
-            var addedId= await _measureRepository.CreateAsync(measure);
-            if(addedId >0)
+            var addedId = await _measureRepository.CreateAsync(measure);
+            if(addedId > 0)
             {
                 UpdateCard updateCard = new UpdateCard()
                 {
@@ -33,13 +30,11 @@ namespace Measure.Services
                     measureId = addedId,
                     weight = measure.weight
                 };
-              
               await _messageSession.Send(updateCard);
                 return true;
             }
             return false;
         }
-
         public async Task<bool> UpdateStatus(int measureId, bool isSucceeded)
         {
             eStatus status = isSucceeded == true ? eStatus.success : eStatus.failed;

@@ -24,12 +24,19 @@ namespace Measure.Data
         private readonly IMapper _mapper;
 
         public async Task<int> CreateAsync(MeasureModel measureModel)
-        {
-            Entities.Measure measure = _mapper.Map<Entities.Measure>(measureModel);
-            var e = await _measureContext.Measures.AddAsync(measure);
-
-            await _measureContext.SaveChangesAsync();
-            return e.Entity.id;
+        {//add try
+            try
+            {
+                Entities.Measure measure = _mapper.Map<Entities.Measure>(measureModel);
+                var e = await _measureContext.Measures.AddAsync(measure);
+                await _measureContext.SaveChangesAsync();
+                return e.Entity.id;
+            }
+            catch (Exception)
+            {
+                //create and throw my exeption
+                return -1;
+            }
         }
 
         public async Task<int> UpdateStatus(int measureId, eStatus status)
