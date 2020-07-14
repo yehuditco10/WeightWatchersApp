@@ -48,3 +48,11 @@ C:\Users\bhartman\Documents\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\
 C:\Users\bhartman\Documents\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.dll
 C:\Users\bhartman\Documents\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.pdb
 C:\Users\bhartman\Documents\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csprojAssemblyReference.cache
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.deps.json
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.dll
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.pdb
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csprojAssemblyReference.cache
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfo.cs
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.dll
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.pdb

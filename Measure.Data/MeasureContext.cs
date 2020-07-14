@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using Microsoft.EntityFrameworkCore;
 
 namespace Measure.Data
@@ -8,9 +9,11 @@ namespace Measure.Data
         public DbSet<Entities.Measure> Measures { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            string configvalue1 = ConfigurationManager.AppSettings["MeasureConnection"];
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source =DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True");
+                optionsBuilder.UseSqlServer(ConfigurationManager.AppSettings["wightWatchersContext"]);
+                //optionsBuilder.UseSqlServer("Data Source =DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True");
                 base.OnConfiguring(optionsBuilder);
             }
         }

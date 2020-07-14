@@ -4,6 +4,7 @@ using Measure.Services.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -27,6 +28,7 @@ namespace Measure.Data
         {//add try
             try
             {
+                
                 Entities.Measure measure = _mapper.Map<Entities.Measure>(measureModel);
                 var e = await _measureContext.Measures.AddAsync(measure);
                 await _measureContext.SaveChangesAsync();

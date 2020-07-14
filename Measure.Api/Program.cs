@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.IO;
@@ -60,8 +60,8 @@ namespace Measure.Api
 
 
                 var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-                var connection = "Data Source = ILBHARTMANLT; Initial Catalog = MeasureDB; Integrated Security = True";
-               // var connection =  "Data Source = DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True";
+                 //var connection = "Data Source = ILBHARTMANLT; Initial Catalog = MeasureDB; Integrated Security = True";
+               var connection =  "Data Source = DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True";
 
                 persistence.SqlDialect<SqlDialect.MsSqlServer>();
 

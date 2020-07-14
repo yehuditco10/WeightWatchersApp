@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Configuration;
 
 namespace Tracking.Data
 {
@@ -12,7 +13,7 @@ namespace Tracking.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Data Source =DESKTOP-1HT6NS2; Initial Catalog = TrackingDB; Integrated Security = True");
+                optionsBuilder.UseSqlServer(ConfigurationManager.AppSettings["TrackingConnction"]);
                 base.OnConfiguring(optionsBuilder);
             }
         }

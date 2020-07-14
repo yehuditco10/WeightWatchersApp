@@ -1,0 +1,75 @@
+﻿2020-07-14 08:24:24.474 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:24:24.775 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:24:24.887 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:24:47.401 ERROR Could not complete the installation. 
+System.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server)
+ ---> System.ComponentModel.Win32Exception (53): The network path was not found.
+   at System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken)
+   at System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at System.Data.ProviderBase.DbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location where exception was thrown ---
+   at NServiceBus.Persistence.Sql.ScriptRunner.ExecuteInSeparateConnection[T](Func`6 installAction, String scriptDirectory, String tablePrefix, SqlDialect sqlDialect, Func`2 connectionBuilder) in /_/src/SqlPersistence/ScriptRunner.cs:line 70
+   at NServiceBus.Persistence.Sql.ScriptRunner.Install(SqlDialect sqlDialect, String tablePrefix, Func`2 connectionBuilder, String scriptDirectory, Boolean shouldInstallOutbox, Boolean shouldInstallSagas, Boolean shouldInstallSubscriptions, Boolean shouldInstallTimeouts) in /_/src/SqlPersistence/ScriptRunner.cs:line 48
+   at SqlPersistenceInstaller.Install(String identity) in /_/src/SqlPersistence/NeedToInstallSomething.cs:line 30
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:53,State:0,Class:20
+Exception details:
+	HelpLink.ProdName: Microsoft SQL Server
+	HelpLink.EvtSrc: MSSQLServer
+	HelpLink.EvtID: 53
+	HelpLink.BaseHelpUrl: https://go.microsoft.com/fwlink
+	HelpLink.LinkId: 20476
+2020-07-14 08:26:39.371 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:26:39.588 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:26:39.667 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:26:41.437 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:26:42.231 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:29:05.838 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:29:06.091 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:29:06.169 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:29:07.815 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:29:07.945 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:31:45.523 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:31:45.730 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:31:45.806 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:31:47.572 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:31:47.719 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:33:37.818 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:33:38.039 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:33:38.112 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:33:39.804 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:33:39.979 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:37:35.139 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:37:35.454 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:37:35.538 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:37:37.306 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:37:37.474 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:38:58.146 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:38:58.416 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:38:58.520 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:39:00.223 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:39:00.361 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
+2020-07-14 08:41:48.732 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-14 08:41:48.996 INFO  Auditing processed messages to 'audit'
+2020-07-14 08:41:49.076 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-14 08:41:50.901 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-14 08:41:51.055 INFO  Executing saga creation scripts:
+C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
