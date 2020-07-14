@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using WeightWatchers.Data;
 using WeightWatchers.Services;
 using WeightWatchers.Api;
-
+using System.Configuration;
 
 namespace SubscriberHandler
 {
@@ -31,8 +31,7 @@ namespace SubscriberHandler
             var endpointConfiguration = new EndpointConfiguration("Subscriber");
            
             endpointConfiguration.EnableOutbox();
-           // var connection = @"Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchersOutBox; Integrated Security = True";
-            var connection = @"Data Source = DESKTOP-1HT6NS2; Initial Catalog = weightWatchers; Integrated Security = True";
+            var connection = ConfigurationManager.AppSettings["weightWatchersConnection"];
             var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
             var subscriptions = persistence.SubscriptionSettings();
             subscriptions.CacheFor(TimeSpan.FromMinutes(1));
@@ -65,9 +64,7 @@ namespace SubscriberHandler
             containerSettings.ServiceCollection.AddScoped<ISubscriberRepository, SubscriberRepository>();
             //containerSettings.ServiceCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             containerSettings.ServiceCollection.AddDbContext<WeightWatchersContext>(options =>
-                        options.UseSqlServer(
-                          //"Data Source = DESKTOP-1HT6NS2; Initial Catalog = WeightWatchers; Integrated Security = True"));
-                          "Data Source = DESKTOP-1HT6NS2; Initial Catalog = weightWatchers; Integrated Security = True"));
+                        options.UseSqlServer(connection));                        
 
             var mappingConfig = new MapperConfiguration(mc =>
             {

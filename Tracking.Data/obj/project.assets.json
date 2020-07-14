@@ -6356,19 +6356,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user1\\.nuget\\packages\\": {}
+    "C:\\Users\\bhartman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user1\\Documents\\Yehudit\\Brix\\week10\\WeightWatchersApp\\Tracking.Data\\Tracking.Data.csproj",
+      "projectUniqueName": "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\Tracking.Data\\Tracking.Data.csproj",
       "projectName": "Tracking.Data",
-      "projectPath": "C:\\Users\\user1\\Documents\\Yehudit\\Brix\\week10\\WeightWatchersApp\\Tracking.Data\\Tracking.Data.csproj",
-      "packagesPath": "C:\\Users\\user1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user1\\Documents\\Yehudit\\Brix\\week10\\WeightWatchersApp\\Tracking.Data\\obj\\",
+      "projectPath": "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\Tracking.Data\\Tracking.Data.csproj",
+      "packagesPath": "C:\\Users\\bhartman\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\Tracking.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\user1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\bhartman\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6381,8 +6381,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\user1\\Documents\\Yehudit\\Brix\\week10\\WeightWatchersApp\\Tracking.Services\\Tracking.Services.csproj": {
-              "projectPath": "C:\\Users\\user1\\Documents\\Yehudit\\Brix\\week10\\WeightWatchersApp\\Tracking.Services\\Tracking.Services.csproj"
+            "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\Tracking.Services\\Tracking.Services.csproj": {
+              "projectPath": "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\Tracking.Services\\Tracking.Services.csproj"
             }
           }
         }
@@ -6435,7 +6435,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

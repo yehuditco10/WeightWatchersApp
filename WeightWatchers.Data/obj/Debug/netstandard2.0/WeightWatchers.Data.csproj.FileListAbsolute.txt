@@ -67,3 +67,16 @@ C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Data\obj\Debug\nets
 C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CopyComplete
 C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.dll
 C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.dll.config
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.deps.json
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csprojAssemblyReference.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.AssemblyInfoInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.AssemblyInfo.cs
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CoreCompileInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CopyComplete
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.pdb

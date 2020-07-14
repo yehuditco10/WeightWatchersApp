@@ -11,14 +11,7 @@ namespace WeightWatchers.Data
     {
         public DbSet<Subscriber> Subscribers { get; set; }
         public DbSet<Card> Cards { get; set; }
-        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        //{
-           // if (!optionsBuilder.IsConfigured)
-           // {
-               // optionsBuilder.UseSqlServer("Data Source =ILBHARTMANLT; Initial Catalog = weightWatchers; Integrated Security = True");
-               // base.OnConfiguring(optionsBuilder);
-            //}
-      //  }
+        
         public WeightWatchersContext(DbContextOptions<WeightWatchersContext> options)
    : base(options)
         { }

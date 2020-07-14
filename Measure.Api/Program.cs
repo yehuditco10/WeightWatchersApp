@@ -56,13 +56,11 @@ namespace Measure.Api
 
                 var transport = endpointConfiguration.UseTransport<RabbitMQTransport>();
                 transport.UseConventionalRoutingTopology()
-                    .ConnectionString("host= localhost:5672;username=guest;password=guest");
+                    .ConnectionString(Configuration.GetConnectionString("TransportConnection"));
 
 
                 var persistence = endpointConfiguration.UsePersistence<SqlPersistence>();
-                 //var connection = "Data Source = ILBHARTMANLT; Initial Catalog = MeasureDB; Integrated Security = True";
-               var connection =  "Data Source = DESKTOP-1HT6NS2; Initial Catalog = MeasureDB; Integrated Security = True";
-
+                var connection = Configuration.GetConnectionString("MeasureDBConnection");
                 persistence.SqlDialect<SqlDialect.MsSqlServer>();
 
                 persistence.ConnectionBuilder(
