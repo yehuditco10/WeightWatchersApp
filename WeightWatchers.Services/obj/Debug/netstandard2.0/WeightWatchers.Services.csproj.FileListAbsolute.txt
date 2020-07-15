@@ -68,3 +68,12 @@ E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatc
 E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
 E:\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
+C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb

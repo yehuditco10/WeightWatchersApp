@@ -41,21 +41,21 @@ namespace WeightWatchers.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<bool>> RegisterAsync(SubscriberDTO subscriberDTO)
         {
-                var subsciber = _mapper.Map<SubscriberModel>(subscriberDTO);
-                return await _subscriberService.AddAsync(subsciber, subscriberDTO.height);
+            var subsciber = _mapper.Map<SubscriberModel>(subscriberDTO);
+            return await _subscriberService.AddAsync(subsciber, subscriberDTO.height);
         }
         [HttpPost("login")]
         public async Task<ActionResult<int>> LoginAsync(LoginDTO loginDTO)
         {
-            var cardId= await _subscriberService.LoginAsync(loginDTO.email, loginDTO.password);
+            var cardId = await _subscriberService.LoginAsync(loginDTO.email, loginDTO.password);
             if (cardId == -1)
                 return Unauthorized();
             return cardId;
         }
         [HttpPost("email/{email}")]
-        public async Task<ActionResult>SendEmailAsync(string email)
+        public async Task<ActionResult> SendEmailAsync(string email)
         {
-           await _subscriberService.SendEmail(email);
+            await _subscriberService.SendEmail(email);
             return Ok();
         }
     }

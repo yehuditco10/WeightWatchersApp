@@ -17,6 +17,11 @@ namespace WeightWatchers.Services
         {
             _subscriberRepository = subscriberRepository;
         }
+
+        public SubscriberService()
+        {
+        }
+
         public async Task<bool> IsEmailExistsAsync(string email)
         {
             return await _subscriberRepository.IsEmailExistsAsync(email);
@@ -90,6 +95,7 @@ namespace WeightWatchers.Services
                 SmtpServer.Credentials = new System.Net.NetworkCredential(fromMail, fromPassword);
                 SmtpServer.EnableSsl = true;
                 SmtpServer.Send(mail);
+                
             }
 
 

@@ -8,6 +8,14 @@ namespace WeightWatchersXUnitTest
 {
     public class SubscriberServiceTest
     {
+        [Fact]
+        public async void SendEmail_emailSend_returnStatus200()
+        {
+            var subscriberService = new SubscriberService();
+            var result =  subscriberService.SendEmail("brixbootcamp@gmail.com");
+         
+        }
+
         //[Fact]
         //public async void GetCardId_CardExists_returnSuscriberWithThisCardId()
         //{
