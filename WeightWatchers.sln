@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracking.Services", "Tracki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubscriberHandler", "SubscriberHandler\SubscriberHandler.csproj", "{6F3536C2-E28A-4234-BDB5-6C7DE9CEA6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingHandler", "TrackingHandler\TrackingHandler.csproj", "{2922C39C-4780-4B05-82D1-A920546EF503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackingHandler", "TrackingHandler\TrackingHandler.csproj", "{2922C39C-4780-4B05-82D1-A920546EF503}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
