@@ -80,3 +80,17 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Wei
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.pdb
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.dll.config
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.deps.json
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.dll
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Data.pdb
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csprojAssemblyReference.cache
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.AssemblyInfoInputs.cache
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.AssemblyInfo.cs
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CopyComplete
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.dll
+E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.pdb
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config

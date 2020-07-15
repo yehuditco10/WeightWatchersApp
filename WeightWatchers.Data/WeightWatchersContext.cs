@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Text;
 using WeightWatchers.Data.Entities;
@@ -16,8 +17,17 @@ namespace WeightWatchers.Data
    : base(options)
         { }
         public WeightWatchersContext()
-        {   }
+        {
 
+        }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer(ConfigurationManager.AppSettings["weightWatchersConnection"]);
+                base.OnConfiguring(optionsBuilder);
+            }
+        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Card>().ToTable("Card");

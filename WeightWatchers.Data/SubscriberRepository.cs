@@ -22,6 +22,16 @@ namespace WeightWatchers.Data
             _context = watchersContext;
             _mapper = mapper;
         }
+        //in order to test
+        public SubscriberRepository(WeightWatchersContext watchersContext)
+        {
+            _context = watchersContext;
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfiler());
+            });
+            _mapper = new Mapper(mappingConfig);
+        }
         public async Task<int> AddAsync(SubscriberModel subsciberModel, float height)
         {
             try
@@ -67,6 +77,12 @@ namespace WeightWatchers.Data
 
 
         }
+
+        //public async Task<string> getEmailByIdAsync(int userId)
+        //{
+        //    var email= await _context.Subscribers.FirstOrDefaultAsync(s=>s.==userId)
+        //}
+
         public async Task<CardModel> isCardExists(int cardId)
         {
            

@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using WeightWatchers.Services.Models;
+using System.Net;
+using System.Net.Mail;
+using System.Configuration;
 
 namespace WeightWatchers.Services
 {
@@ -37,8 +40,8 @@ namespace WeightWatchers.Services
         }
         public Task<CardModel> GetByIdAsync(int cardId)
         {
-            var subscriber = _subscriberRepository.GetByIdAsync(cardId);
-            return subscriber;
+            var card = _subscriberRepository.GetByIdAsync(cardId);
+            return card;
         }
 
         public async Task<int> UpdateCard(int cardId, float weight)
@@ -53,14 +56,47 @@ namespace WeightWatchers.Services
                     weight = weight,
                     updateDate = DateTime.Today
                 };
-               return  await _subscriberRepository.UpdateCard(cardUpdated);
+                return await _subscriberRepository.UpdateCard(cardUpdated);
             }
             return -1;
         }
         public async Task<CardModel> IsCardExists(int cardId)
         {
-          
+
             return await _subscriberRepository.isCardExists(cardId);
+        }
+        public async Task SendEmail(string email)
+        {
+            string subject = "SubjectVerifyEmail";
+
+            string body = "Hello " + email + "your verify number is 1234";
+            await SendEmail(email, subject, body);
+        }
+        private async Task SendEmail(string emailTo, string subject, string body)
+        {
+            try
+            {
+                string fromMail = "brixbootcamp@gmail.com";
+               // string fromMail = ConfigurationManager.AppSettings["WeightWatcherEmailAddress"];
+                string fromPassword = "brix2020";
+                //string fromPassword = ConfigurationManager.AppSettings["WeightWatcherEmailAddress"];
+                MailMessage mail = new MailMessage();
+                SmtpClient SmtpServer = new SmtpClient("smtp.gmail.com");
+                mail.From = new MailAddress(fromMail);
+                mail.To.Add(emailTo);
+                mail.Subject = subject;
+                mail.Body = body;
+                SmtpServer.Port = 25;
+                SmtpServer.Credentials = new System.Net.NetworkCredential(fromMail, fromPassword);
+                SmtpServer.EnableSsl = true;
+                SmtpServer.Send(mail);
+            }
+
+
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
         }
     }
 }

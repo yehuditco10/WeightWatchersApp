@@ -59,9 +59,17 @@ C:\Users\user1\Documents\Yehudit\Brix\week10\WeightWatchersApp\Messages\obj\Debu
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.deps.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.pdb
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csprojAssemblyReference.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfoInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfo.cs
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csproj.CoreCompileInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.pdb
+E:\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.deps.json
+E:\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.dll
+E:\WeightWatchersApp\Messages\bin\Debug\netstandard2.0\Messages.pdb
+E:\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csprojAssemblyReference.cache
+E:\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfoInputs.cache
+E:\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.AssemblyInfo.cs
+E:\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.dll
+E:\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Messages\obj\Debug\netstandard2.0\Messages.csprojAssemblyReference.cache

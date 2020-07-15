@@ -52,6 +52,11 @@ namespace WeightWatchers.Api.Controllers
                 return Unauthorized();
             return cardId;
         }
-        
+        [HttpPost("email/{email}")]
+        public async Task<ActionResult>SendEmailAsync(string email)
+        {
+           await _subscriberService.SendEmail(email);
+            return Ok();
+        }
     }
 }

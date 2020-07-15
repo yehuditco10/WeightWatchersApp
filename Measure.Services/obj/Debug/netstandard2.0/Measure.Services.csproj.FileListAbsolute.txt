@@ -90,3 +90,14 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Mea
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.pdb
+E:\WeightWatchersApp\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.deps.json
+E:\WeightWatchersApp\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.dll
+E:\WeightWatchersApp\Measure.Services\bin\Debug\netstandard2.0\Measure.Services.pdb
+E:\WeightWatchersApp\Measure.Services\bin\Debug\netstandard2.0\Messages.dll
+E:\WeightWatchersApp\Measure.Services\bin\Debug\netstandard2.0\Messages.pdb
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csprojAssemblyReference.cache
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.AssemblyInfoInputs.cache
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.AssemblyInfo.cs
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.csproj.CopyComplete
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.dll
+E:\WeightWatchersApp\Measure.Services\obj\Debug\netstandard2.0\Measure.Services.pdb

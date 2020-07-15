@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nrn3qoT50BRmJQcWpxj7cHdYJ8+PuZK1DsPdR2r3Fx4mUhtPJIOYMQX0/ckWp/iJrQNWdsH0ujsb89COTcsOYw==",
+  "dgSpecHash": "RGkKPq18xNdboTez6JFqDrMW/2TVxVU7DgmkGTX/PnBrjKGgfANn9Wt7H/FbynEtAmxZ6RBfB/PbhPmEEBQ94w==",
   "success": true,
   "projectFilePath": "C:\\Users\\bhartman\\Documents\\שומרים יום שלישי\\WeightWatchersApp\\WeightWatchers.Api\\WeightWatchers.Api.csproj",
   "expectedPackageFiles": [
@@ -98,7 +98,7 @@
     "C:\\Users\\bhartman\\.nuget\\packages\\system.composition.hosting\\1.0.31\\system.composition.hosting.1.0.31.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.composition.runtime\\1.0.31\\system.composition.runtime.1.0.31.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.composition.typedparts\\1.0.31\\system.composition.typedparts.1.0.31.nupkg.sha512",
-    "C:\\Users\\bhartman\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\bhartman\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.console\\4.3.0\\system.console.4.3.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
@@ -150,7 +150,7 @@
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.openssl\\4.3.0\\system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.pkcs\\4.7.0\\system.security.cryptography.pkcs.4.7.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.primitives\\4.3.0\\system.security.cryptography.primitives.4.3.0.nupkg.sha512",
-    "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.7.0\\system.security.cryptography.protecteddata.4.7.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.x509certificates\\4.3.0\\system.security.cryptography.x509certificates.4.3.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.cryptography.xml\\4.7.0\\system.security.cryptography.xml.4.7.0.nupkg.sha512",
     "C:\\Users\\bhartman\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",

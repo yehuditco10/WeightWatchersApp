@@ -2859,7 +2859,8 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "AutoMapper": "10.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "System.Configuration.ConfigurationManager": "4.7.0"
         },
         "compile": {
           "bin/placeholder/WeightWatchers.Services.dll": {}
