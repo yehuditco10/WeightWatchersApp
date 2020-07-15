@@ -22,6 +22,16 @@ namespace WeightWatchers.Data
             _context = watchersContext;
             _mapper = mapper;
         }
+        //in order to test
+        public SubscriberRepository(WeightWatchersContext watchersContext)
+        {
+            _context = watchersContext;
+            var mappingConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfiler());
+            });
+            _mapper = new Mapper(mappingConfig);
+        }
         public async Task<int> AddAsync(SubscriberModel subsciberModel, float height)
         {
             try

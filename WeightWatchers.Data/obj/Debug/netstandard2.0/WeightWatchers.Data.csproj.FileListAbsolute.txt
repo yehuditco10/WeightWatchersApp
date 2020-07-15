@@ -92,3 +92,4 @@ E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers
 E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.csproj.CopyComplete
 E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.dll
 E:\WeightWatchersApp\WeightWatchers.Data\obj\Debug\netstandard2.0\WeightWatchers.Data.pdb
+E:\WeightWatchersApp\WeightWatchers.Data\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config

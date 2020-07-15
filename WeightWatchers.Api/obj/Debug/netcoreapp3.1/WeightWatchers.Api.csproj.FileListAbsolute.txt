@@ -1145,3 +1145,4 @@ E:\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.A
 E:\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csproj.CopyComplete
 E:\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.dll
 E:\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.pdb
+E:\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\WeightWatchers.Services.dll.config

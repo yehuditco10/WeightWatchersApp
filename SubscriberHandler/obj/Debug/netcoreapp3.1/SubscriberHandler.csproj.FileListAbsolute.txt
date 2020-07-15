@@ -1060,3 +1060,4 @@ E:\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler
 E:\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csproj.CopyComplete
 E:\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.dll
 E:\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.pdb
+E:\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\WeightWatchers.Services.dll.config

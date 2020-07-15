@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tracking.Services", "Tracki
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubscriberHandler", "SubscriberHandler\SubscriberHandler.csproj", "{6F3536C2-E28A-4234-BDB5-6C7DE9CEA6FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackingHandler", "TrackingHandler\TrackingHandler.csproj", "{2922C39C-4780-4B05-82D1-A920546EF503}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackingHandler", "TrackingHandler\TrackingHandler.csproj", "{2922C39C-4780-4B05-82D1-A920546EF503}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatcher.UnitTests", "WeightWatcher.UnitTests\WeightWatcher.UnitTests.csproj", "{15970D77-6533-425B-99EB-E0162273F7D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{2922C39C-4780-4B05-82D1-A920546EF503}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2922C39C-4780-4B05-82D1-A920546EF503}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2922C39C-4780-4B05-82D1-A920546EF503}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15970D77-6533-425B-99EB-E0162273F7D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15970D77-6533-425B-99EB-E0162273F7D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15970D77-6533-425B-99EB-E0162273F7D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15970D77-6533-425B-99EB-E0162273F7D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -103,6 +109,7 @@ Global
 		{339C11B6-ED71-4C23-8DF8-9536D73F4533} = {8E6E8F63-B433-4B9B-AE35-74877709A0BA}
 		{6F3536C2-E28A-4234-BDB5-6C7DE9CEA6FE} = {B94BE88F-9334-49F4-B496-0A0348F35BC9}
 		{2922C39C-4780-4B05-82D1-A920546EF503} = {8E6E8F63-B433-4B9B-AE35-74877709A0BA}
+		{15970D77-6533-425B-99EB-E0162273F7D6} = {B94BE88F-9334-49F4-B496-0A0348F35BC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B02C45A0-1FE3-43EF-B135-E646262E2075}

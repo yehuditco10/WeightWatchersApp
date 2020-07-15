@@ -1963,7 +1963,8 @@
       "WeightWatchers.Services/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.0.0",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0"
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "7.0.0",
+          "System.Configuration.ConfigurationManager": "4.7.0"
         },
         "runtime": {
           "WeightWatchers.Services.dll": {}
