@@ -47,3 +47,11 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tra
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.csproj.CoreCompileInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.pdb
+E:\WeightWatchersApp\Tracking.Services\bin\Debug\netstandard2.0\Tracking.Services.deps.json
+E:\WeightWatchersApp\Tracking.Services\bin\Debug\netstandard2.0\Tracking.Services.dll
+E:\WeightWatchersApp\Tracking.Services\bin\Debug\netstandard2.0\Tracking.Services.pdb
+E:\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.csprojAssemblyReference.cache
+E:\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.AssemblyInfoInputs.cache
+E:\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.AssemblyInfo.cs
+E:\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.dll
+E:\WeightWatchersApp\Tracking.Services\obj\Debug\netstandard2.0\Tracking.Services.pdb

@@ -1,0 +1,12 @@
+﻿2020-07-15 09:26:54.027 INFO  Logging to 'E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-15 09:26:55.184 INFO  Auditing processed messages to 'audit'
+2020-07-15 09:26:55.473 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-15 09:26:57.628 INFO  Executing 'E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
+2020-07-15 09:27:12.674 ERROR arrive to tracing the new weight is 120
+2020-07-15 09:27:14.355 ERROR send to subscriber....
+2020-07-15 09:28:37.537 INFO  Logging to 'E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\' with level Info
+2020-07-15 09:28:37.933 INFO  Auditing processed messages to 'audit'
+2020-07-15 09:28:38.605 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
+License Expiration: 2020-10-05
+2020-07-15 09:28:40.518 INFO  Executing 'E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'

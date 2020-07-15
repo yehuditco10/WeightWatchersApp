@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using WeightWatchers.Services.Models;
+using System.Net;
+using System.Net.Mail;
+using System.Configuration;
 
 namespace WeightWatchers.Services
 {
@@ -53,14 +56,43 @@ namespace WeightWatchers.Services
                     weight = weight,
                     updateDate = DateTime.Today
                 };
-               return  await _subscriberRepository.UpdateCard(cardUpdated);
+                return await _subscriberRepository.UpdateCard(cardUpdated);
             }
             return -1;
         }
         public async Task<CardModel> IsCardExists(int cardId)
         {
-          
+
             return await _subscriberRepository.isCardExists(cardId);
+        }
+        public async Task sendEmail(string email)
+        {
+            var fromAddress = new MailAddress(
+                    ConfigurationManager.AppSettings["WeightWatcherEmailAddress"]);
+            var toAddress = new MailAddress(email);
+            //const??
+            string fromPassword = ConfigurationManager.AppSettings["WeightWatcherEmailAddress"];
+            string subject = ConfigurationManager.AppSettings["SubjectVerifyEmail"];
+            //todo -
+            string body = "Hello "+email +"your verify number is 1234";
+            var smtp = new SmtpClient
+            {
+                Host = "smtp.gmail.com",
+                Port = 578,
+                EnableSsl = true,
+                DeliveryMethod = SmtpDeliveryMethod.Network,
+                UseDefaultCredentials = false,
+                Credentials = new NetworkCredential(fromAddress.Address, fromPassword)
+            };
+            using (var message = new MailMessage(fromAddress, toAddress)
+            {
+                Subject = subject,
+                Body = body
+            })
+            {
+                smtp.Send(message);
+            }
+
         }
     }
 }

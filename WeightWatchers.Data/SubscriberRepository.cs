@@ -67,6 +67,12 @@ namespace WeightWatchers.Data
 
 
         }
+
+        //public async Task<string> getEmailByIdAsync(int userId)
+        //{
+        //    var email= await _context.Subscribers.FirstOrDefaultAsync(s=>s.==userId)
+        //}
+
         public async Task<CardModel> isCardExists(int cardId)
         {
            

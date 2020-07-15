@@ -77,3 +77,15 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tra
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.pdb
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Data.dll.config
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Data.deps.json
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Data.dll
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Data.pdb
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Services.dll
+E:\WeightWatchersApp\Tracking.Data\bin\Debug\netstandard2.0\Tracking.Services.pdb
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.csprojAssemblyReference.cache
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.AssemblyInfoInputs.cache
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.AssemblyInfo.cs
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.csproj.CopyComplete
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.dll
+E:\WeightWatchersApp\Tracking.Data\obj\Debug\netstandard2.0\Tracking.Data.pdb
