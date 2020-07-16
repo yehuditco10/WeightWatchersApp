@@ -1,7 +1,0 @@
-﻿2020-07-15 16:12:17.047 INFO  Logging to 'C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\' with level Info
-2020-07-15 16:12:17.222 INFO  Auditing processed messages to 'audit'
-2020-07-15 16:12:17.341 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
-License Expiration: 2020-10-05
-2020-07-15 16:12:17.891 INFO  Executing 'C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
-2020-07-15 16:13:57.861 ERROR arrive to tracing the new weight is 0
-2020-07-15 16:13:58.820 ERROR send to subscriber....
