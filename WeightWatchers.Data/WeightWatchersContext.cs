@@ -8,11 +8,11 @@ using System.Text;
 using WeightWatchers.Data.Entities;
 namespace WeightWatchers.Data
 {
-    public class WeightWatchersContext : DbContext
+    public class WeightWatchersContext : DbContext, IWeightWatchersContext
     {
         public DbSet<Subscriber> Subscribers { get; set; }
         public DbSet<Card> Cards { get; set; }
-        
+
         public WeightWatchersContext(DbContextOptions<WeightWatchersContext> options)
    : base(options)
         { }

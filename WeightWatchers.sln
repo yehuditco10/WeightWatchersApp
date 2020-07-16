@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TrackingHandler", "Tracking
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeightWatchersXUnitTest", "WeightWatchersXUnitTest\WeightWatchersXUnitTest.csproj", "{3862E29F-32B6-4142-968A-C2C8E3BDA75F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTestWW", "XUnitTestWW\XUnitTestWW.csproj", "{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{3862E29F-32B6-4142-968A-C2C8E3BDA75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3862E29F-32B6-4142-968A-C2C8E3BDA75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3862E29F-32B6-4142-968A-C2C8E3BDA75F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +116,7 @@ Global
 		{6F3536C2-E28A-4234-BDB5-6C7DE9CEA6FE} = {B94BE88F-9334-49F4-B496-0A0348F35BC9}
 		{2922C39C-4780-4B05-82D1-A920546EF503} = {8E6E8F63-B433-4B9B-AE35-74877709A0BA}
 		{3862E29F-32B6-4142-968A-C2C8E3BDA75F} = {B94BE88F-9334-49F4-B496-0A0348F35BC9}
+		{E952FFFC-78FB-41E6-A4BC-1646A0CEC54F} = {B94BE88F-9334-49F4-B496-0A0348F35BC9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B02C45A0-1FE3-43EF-B135-E646262E2075}

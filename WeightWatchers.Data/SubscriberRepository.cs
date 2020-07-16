@@ -77,6 +77,26 @@ namespace WeightWatchers.Data
 
 
         }
+        public CardModel GetById(int cardId)
+        {
+            try
+            {
+                Card card = _context.Cards.FirstOrDefault(c => c.id == cardId);
+                if (card == null)
+                {
+                    throw new Exception("The id isn't exists");
+                }
+                var moreDetails = _context.Subscribers.FirstOrDefault(s => s.id.Equals(card.subscriberId));
+                //card.subscriber.firstName = moreDetails.firstName;
+                //card.subscriber.lastName = moreDetails.lastName;
+                return _mapper.Map<CardModel>(card);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
 
         //public async Task<string> getEmailByIdAsync(int userId)
         //{

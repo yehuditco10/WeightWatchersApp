@@ -48,6 +48,11 @@ namespace WeightWatchers.Services
             var card = _subscriberRepository.GetByIdAsync(cardId);
             return card;
         }
+        public CardModel GetById(int cardId)
+        {
+            var card = _subscriberRepository.GetById(cardId);
+            return card;
+        }
 
         public async Task<int> UpdateCard(int cardId, float weight)
         {
