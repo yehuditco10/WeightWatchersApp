@@ -1,67 +1,4 @@
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.exe
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfo.cs
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Core.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csproj.CopyComplete
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Transport.RabbitMQ.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\AutoMapper.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.pdb
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll.config
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.pdb
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.pdb
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Drop.sql
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql
@@ -86,111 +23,77 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Tra
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Subscription_Drop.sql
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Timeout_Create.sql
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Timeout_Drop.sql
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.dll.config
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.deps.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.runtimeconfig.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.runtimeconfig.dev.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Core.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Extensions.DependencyInjection.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Transport.RabbitMQ.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.dll
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll.config
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csprojAssemblyReference.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfoInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfo.cs
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csproj.CoreCompileInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.pdb
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.genruntimeconfig.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.dll.config
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.exe
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Subscription_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Timeout_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Outbox_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Outbox_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Subscription_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Subscription_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Timeout_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MySql\Timeout_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Outbox_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Outbox_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Subscription_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Subscription_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Timeout_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\Oracle\Timeout_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Outbox_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Subscription_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Subscription_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Timeout_Create.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\PostgreSql\Timeout_Drop.sql
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.dll.config
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.deps.json
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.runtimeconfig.json
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.runtimeconfig.dev.json
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\TrackingHandler.pdb
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\AutoMapper.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Core.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Extensions.DependencyInjection.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\NServiceBus.Transport.RabbitMQ.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\RabbitMQ.Client.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Cryptography.Xml.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.dll
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Messages.pdb
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.pdb
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Data.dll.config
-E:\WeightWatchersApp\TrackingHandler\bin\Debug\netcoreapp3.1\Tracking.Services.pdb
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csprojAssemblyReference.cache
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfoInputs.cache
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.AssemblyInfo.cs
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.csproj.CopyComplete
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.dll
-E:\WeightWatchersApp\TrackingHandler\obj\Debug\netcoreapp3.1\TrackingHandler.pdb

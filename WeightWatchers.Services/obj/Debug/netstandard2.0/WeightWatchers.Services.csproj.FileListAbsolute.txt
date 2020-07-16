@@ -1,54 +1,4 @@
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csproj.CoreCompileInputs.cache
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csproj.CoreCompileInputs.cache
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\tryWatchers\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csproj.CoreCompileInputs.cache
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\bhartman\Documents\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
@@ -58,22 +8,3 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Wei
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csproj.CoreCompileInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-E:\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-E:\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-E:\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-E:\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb
-E:\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll.config
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.dll
-C:\Users\user1\Documents\Yehudit\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.pdb

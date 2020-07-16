@@ -1,6 +1,0 @@
-﻿2020-07-11 23:16:19.738 INFO  Logging to 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\SubscriberHandler\bin\Debug\netcoreapp3.1\' with level Info
-2020-07-11 23:16:20.785 INFO  Auditing processed messages to 'audit'
-2020-07-11 23:16:21.079 INFO  Selected active license from C:\Users\user1\AppData\Local\ParticularSoftware\license.xml
-License Expiration: 2020-10-05
-2020-07-11 23:16:22.753 INFO  Executing 'C:\Users\user1\Documents\Yehudit\Brix\WeightWatchers\proj\project\WeightWatchers\SubscriberHandler\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
-2020-07-11 23:21:08.949 ERROR Received UpdateCard in subscriber, weight = 30 ...

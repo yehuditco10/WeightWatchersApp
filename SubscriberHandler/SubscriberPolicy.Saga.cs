@@ -13,8 +13,8 @@ namespace SubscriberHandler
 {
     public class SubscriberPolicySaga : Saga<SubscriberPolicyData>,
         IAmStartedByMessages<UpdateCard>,
-        IAmStartedByMessages<TrackAdded>,
-        IAmStartedByMessages<BMIUpdated>
+        IHandleMessages<TrackAdded>,
+        IHandleMessages<BMIUpdated>
     {
         static ILog _log = LogManager.GetLogger<SubscriberPolicySaga>();
         public async Task Handle(UpdateCard message, IMessageHandlerContext context)
@@ -28,7 +28,7 @@ namespace SubscriberHandler
                 weight = message.weight
             };
 
-            await context.SendLocal(updateBMI);
+            await context.SendLocal(updateBMI).ConfigureAwait(false);
 
             AddTrack addTrack = new AddTrack()
             {
