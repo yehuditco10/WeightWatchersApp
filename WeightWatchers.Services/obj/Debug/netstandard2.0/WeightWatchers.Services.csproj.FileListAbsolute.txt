@@ -2,7 +2,6 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Wei
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.deps.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\bin\Debug\netstandard2.0\WeightWatchers.Services.pdb
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csprojAssemblyReference.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfoInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.AssemblyInfo.cs
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Services\obj\Debug\netstandard2.0\WeightWatchers.Services.csproj.CoreCompileInputs.cache

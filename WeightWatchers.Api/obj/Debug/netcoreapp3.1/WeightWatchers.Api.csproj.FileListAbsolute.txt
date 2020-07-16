@@ -1,3 +1,8 @@
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csprojAssemblyReference.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.AssemblyInfoInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.AssemblyInfo.cs
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csproj.CoreCompileInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -128,12 +133,6 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Wei
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\WeightWatchers.Data.dll.config
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\WeightWatchers.Services.pdb
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\bin\Debug\netcoreapp3.1\WeightWatchers.Services.dll.config
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.AssemblyInfo.cs
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csproj.CoreCompileInputs.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.RazorTargetAssemblyInfo.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\staticwebassets\WeightWatchers.Api.StaticWebAssets.Manifest.cache
@@ -141,3 +140,4 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Wei
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.pdb
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.genruntimeconfig.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\WeightWatchers.Api\obj\Debug\netcoreapp3.1\WeightWatchers.Api.MvcApplicationPartsAssemblyInfo.cs

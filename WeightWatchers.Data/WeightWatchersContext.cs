@@ -13,6 +13,9 @@ namespace WeightWatchers.Data
         public DbSet<Subscriber> Subscribers { get; set; }
         public DbSet<Card> Cards { get; set; }
 
+        public DbSet<VerificationEmail> VerificationEmails { get; set; }
+
+
         public WeightWatchersContext(DbContextOptions<WeightWatchersContext> options)
    : base(options)
         { }
@@ -32,6 +35,7 @@ namespace WeightWatchers.Data
         {
             modelBuilder.Entity<Card>().ToTable("Card");
             modelBuilder.Entity<Subscriber>().ToTable("Subscriber");
+            modelBuilder.Entity<VerificationEmail>().ToTable("VerificationEmail");
 
             modelBuilder.Entity<Card>()
                                .Property(Subscriber => Subscriber.openDate)
@@ -64,6 +68,23 @@ namespace WeightWatchers.Data
             modelBuilder.Entity<Subscriber>()
            .Property(u => u.password)
            .IsRequired();
+
+            //VerificationEmail
+
+            modelBuilder.Entity<VerificationEmail>()
+                .Property(u => u.Id);
+            modelBuilder.Entity<VerificationEmail>()
+               .Property(u => u.VerifyPassword);
+            //  .HasDefaultValueSql("NEWID()");
+            modelBuilder.Entity<VerificationEmail>()
+                  .HasIndex(u => u.Email)
+                  .IsUnique();
+            modelBuilder.Entity<VerificationEmail>()
+           .Property(u => u.ExpiryDate)
+           .IsRequired();
+
+
+
         }
     }
 }

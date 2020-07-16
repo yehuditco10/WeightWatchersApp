@@ -1,3 +1,7 @@
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csprojAssemblyReference.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.AssemblyInfoInputs.cache
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.AssemblyInfo.cs
+C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csproj.CoreCompileInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
@@ -170,10 +174,6 @@ C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Sub
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\WeightWatchers.Data.dll.config
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\WeightWatchers.Services.pdb
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\bin\Debug\netcoreapp3.1\WeightWatchers.Services.dll.config
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csprojAssemblyReference.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.AssemblyInfoInputs.cache
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.AssemblyInfo.cs
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csproj.CoreCompileInputs.cache
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.csproj.CopyComplete
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.dll
 C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\SubscriberHandler\obj\Debug\netcoreapp3.1\SubscriberHandler.pdb

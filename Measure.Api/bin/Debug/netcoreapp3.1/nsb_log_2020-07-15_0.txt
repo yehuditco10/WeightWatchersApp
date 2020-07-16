@@ -1,8 +1,0 @@
-﻿2020-07-15 16:12:17.704 INFO  Logging to 'C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\' with level Info
-2020-07-15 16:12:17.930 INFO  Auditing processed messages to 'audit'
-2020-07-15 16:12:18.012 INFO  Selected active license from C:\Users\bhartman\AppData\Local\ParticularSoftware\license.xml
-License Expiration: 2020-10-05
-2020-07-15 16:12:18.969 INFO  Executing 'C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Outbox_Create.sql'
-2020-07-15 16:12:19.061 INFO  Executing saga creation scripts:
-C:\Users\bhartman\Documents\שומרים יום שלישי\WeightWatchersApp\Measure.Api\bin\Debug\netcoreapp3.1\NServiceBus.Persistence.Sql\MsSqlServer\Sagas\MeasurePolicy_Create.sql
-2020-07-15 16:13:59.269 ERROR BMI updated, and Tracking added, yooooooo
