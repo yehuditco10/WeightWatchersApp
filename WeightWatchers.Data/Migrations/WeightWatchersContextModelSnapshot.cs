@@ -15,11 +15,11 @@ namespace WeightWatchers.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "3.1.5")
+                .HasAnnotation("ProductVersion", "3.1.6")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("WeightWatchers.Services.Models.Card", b =>
+            modelBuilder.Entity("WeightWatchers.Data.Entities.Card", b =>
                 {
                     b.Property<int>("id")
                         .ValueGeneratedOnAdd()
@@ -39,8 +39,8 @@ namespace WeightWatchers.Data.Migrations
                         .HasColumnType("datetime2")
                         .HasDefaultValueSql("getdate()");
 
-                    b.Property<int>("subscriberId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("subscriberId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<DateTime>("updateDate")
                         .ValueGeneratedOnAdd()
@@ -60,7 +60,7 @@ namespace WeightWatchers.Data.Migrations
                     b.ToTable("Card");
                 });
 
-            modelBuilder.Entity("WeightWatchers.Services.Models.Subscriber", b =>
+            modelBuilder.Entity("WeightWatchers.Data.Entities.Subscriber", b =>
                 {
                     b.Property<Guid>("id")
                         .ValueGeneratedOnAdd()
@@ -89,22 +89,50 @@ namespace WeightWatchers.Data.Migrations
                     b.ToTable("Subscriber");
                 });
 
-            modelBuilder.Entity("WeightWatchers.Services.Models.Card", b =>
+            modelBuilder.Entity("WeightWatchers.Data.Entities.VerificationEmail", b =>
                 {
-                    b.HasOne("WeightWatchers.Services.Models.Subscriber", "Subscriber")
-                        .WithOne("Card")
-                        .HasForeignKey("WeightWatchers.Services.Models.Card", "subscriberId")
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<DateTime>("ExpiryDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("VerifyPassword")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid?>("subscriberid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Email")
+                        .IsUnique()
+                        .HasFilter("[Email] IS NOT NULL");
+
+                    b.HasIndex("subscriberid");
+
+                    b.ToTable("VerificationEmail");
+                });
+
+            modelBuilder.Entity("WeightWatchers.Data.Entities.Card", b =>
+                {
+                    b.HasOne("WeightWatchers.Data.Entities.Subscriber", "subscriber")
+                        .WithOne("card")
+                        .HasForeignKey("WeightWatchers.Data.Entities.Card", "subscriberId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("WeightWatchers.Services.Models.Card", b =>
+            modelBuilder.Entity("WeightWatchers.Data.Entities.VerificationEmail", b =>
                 {
-                    b.HasOne("WeightWatchers.Services.Models.Subscriber", "subscriber")
-                        .WithOne("card")
-                        .HasForeignKey("WeightWatchers.Services.Models.Card", "subscriberId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasOne("WeightWatchers.Data.Entities.Subscriber", "subscriber")
+                        .WithMany()
+                        .HasForeignKey("subscriberid");
                 });
 #pragma warning restore 612, 618
         }
